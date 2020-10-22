@@ -45,6 +45,7 @@ class LinkedList:
         if find_flag:
             newelm.next = temp.next
             temp.next = newelm
+            self.__increment_length()
         else:
             raise "Not Found"
 
