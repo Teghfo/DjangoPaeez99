@@ -17,7 +17,7 @@
 #         m, n = n, m
 
 #     if n == 0:
-#         return "khak tu saret"
+#         return "Error"
 
 #     if m == 0:
 #         return n

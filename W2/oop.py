@@ -112,19 +112,19 @@ class Meta(type):
     #     self.name = 'Ashkan'
     #     super().__init__(name, bases, dct, *args, **kwargs)
 
-    # def __call__(self, *args, **kwargs):
-    #     print("in meta")
-    #     return super().__call__(self, *args, **kwargs)
+    def __call__(self, *args, **kwargs):
+        print("in meta")
+        return super().__call__(*args, **kwargs)
 
-    def __new__(cls, name, bases, dct):
-        x = super().__new__(cls, name, bases, dct)
-        # cls.name = "Ashkan"
-        # x.name = 'Ashkan'
-        print("in new Meta")
-        return x
+    # def __new__(cls, name, bases, dct):
+    #     x = super().__new__(cls, name, bases, dct)
+    #     # cls.name = "Ashkan"
+    #     # x.name = 'Ashkan'
+    #     print("in new Meta")
+    #     return x
 
-    def velemun_kon(self):
-        print("khol shodim")
+    # def velemun_kon(self):
+    #     print("khol shodim")
 
 
 class E(metaclass=Meta):
@@ -137,6 +137,6 @@ class E(metaclass=Meta):
 
 
 # print(E.name)
-# e = E()
+e = E()
 # print(e.name)
 # ---------------------
