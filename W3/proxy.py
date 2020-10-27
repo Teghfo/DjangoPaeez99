@@ -23,7 +23,7 @@ class Proxy(InternetInterface):
     def operation(self):
         if self.ip in Proxy.blocked_ip:
             print(
-                f"marg bar tafakorate enhesar talabaneh ideologic. sorry {self.ip}!!")
+                f"sorry {self.ip}!!")
             return
         real_internet = RealInternet()
         real_internet.operation()
