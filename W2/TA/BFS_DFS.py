@@ -40,6 +40,21 @@ class Graph:
         visited = [False] * len(self.graph)
         self.dfs_util(v, visited)
 
+    def iterative_dfs(self, start_node):
+        stack = []
+        visited = len(self.graph)*[False]
+
+        stack.append(start_node)
+        while stack:
+            top_node = stack.pop()
+            if not visited[top_node]:
+                print(top_node, end=' ')
+                visited[top_node] = True
+            for neighbor in self.graph[top_node][::-1]:
+                if not visited[neighbor]:
+                    stack.append(neighbor)
+
+
 
 g = Graph()
 g.add_edge(0, 1)
@@ -49,8 +64,6 @@ g.add_edge(2, 3)
 g.add_edge(2, 4)
 g.add_edge(3, 5)
 g.add_edge(4, 5)
-
-print(g.graph)
-print(type(g.graph))
-g.bfs(0)
+# g.bfs(0)
 g.dfs(0)
+g.iterative_dfs(0)
