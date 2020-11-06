@@ -32,17 +32,21 @@ class Category(models.Model):
 
 class Store(models.Model):
     name = models.CharField(max_length=50)
-    category = models.ForeignKey(Category, on_delete=models.CASCADE)
+    category = models.ForeignKey(
+        Category, on_delete=models.SET_NULL, null=True)
     description = models.TextField()
-    mall = models.ForeignKey(Mall, on_delete=models.CASCADE)
+    mall = models.ForeignKey(Mall, on_delete=models.RESTRICT)
+    image = models.ImageField(upload_to='stores/', null=True, blank=True)
 
     def __str__(self):
         return self.name
 
 
 class Costumer(models.Model):
-    username = models.CharField(max_length=100, unique=True)
+    username = models.CharField(
+        'نام کاربری', help_text='نامت را به من بگو', error_messages={'null': 'شاملو نمیخونیا. شایدم توجه بهم نمیکنی!', 'blank': 'شاملو نمیخونیا. شایدم توجه بهم نمیکنی!'}, max_length=100, unique=True)
     purchase = models.CharField(max_length=100, null=True, blank=True)
+    esm_shab = models.CharField(max_length=10, null=True, blank=True)
 
     def __str__(self):
         return self.username
