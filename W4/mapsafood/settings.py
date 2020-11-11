@@ -11,7 +11,7 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 """
 
 from pathlib import Path
-
+import os
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -44,7 +44,9 @@ INSTALLED_APPS = [
     'geolocation',
     'restaurant',
 ]
-DJANGO_ALLOW_ASYNC_UNSAFE = False
+# DJANGO_ALLOW_ASYNC_UNSAFE = False
+os.environ["DJANGO_ALLOW_ASYNC_UNSAFE"] = "true"
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
