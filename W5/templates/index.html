@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block title %}
+مپصافود
+{% endblock title %}
+
+{% block content %}
+<div class='home-title'>
+    <h1>سفارش آنلاین غذا، شیرینی و خرید از کافی شاپ و سوپرمارکت ها</h1>
+</div>
+<div class="search-section__main__services">
+    {% for e in category %}
+    {% if e.poster %}<img src="{{e.poster.url}}" alt="">{% endif %}
+    <a href="{% url 'element-list' cat_id=e.id cat_title=e.title %}">{{e.title}}</a>
+    {% endfor %}
+</div>
+{% endblock content %}
