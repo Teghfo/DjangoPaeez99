@@ -1,0 +1,53 @@
+@font-face {
+    font-family: farsifont;
+    src: url('FontsFree-Net-ir_sans.ttf');
+}
+
+body {
+    background-image: url('../img/d1.jpg');
+    font-family: farsifont;
+    color: aliceblue;
+}
+
+.container {
+    margin: 20px;
+    display: grid;
+}
+
+#header {
+    max-width: 1440px;
+    height: 100%;
+    margin: auto;
+    padding-top: 227px;
+    position: relative;
+}
+
+.header a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.header a:visited {
+    color: white;
+}
+
+.container h1 {
+    font-size: 50px;
+}
+
+.home-title h1 {
+    font-size: 27px;
+    font-weight: 900;
+    color: #FFF;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.search-section__main__services {
+    display: flex;
+    width: 700px;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}

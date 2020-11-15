@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+
+{% block title %}
+لیست {{category.title}}
+{% endblock title %}
+
+{% block content %}
+<h1>صفحه {{category.title}} </h1>
+<p>{{ name }}</p>
+
+{% for e in elements %}
+<a href="{% url 'element-detail' elem_id=e.id %}">{{e.name}}</a>
+{% endfor %}
+{% endblock content %}

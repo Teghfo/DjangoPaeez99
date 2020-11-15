@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+
+{% block title %}
+جزئیات {{element.name}}
+{% endblock title %}
+
+{% block content %}
+<h1>صفحه {{element.name}} </h1>
+<p>نام:‌{{ element.name }}</p>
+<p>رتبه: {{ element.rate }}</p>
+<ul>
+    {% for address in element.address.all %}
+    <li>
+        {{address.city}}
+    </li>
+    {% endfor %}
+</ul>
+{% endblock content %}
