@@ -1,0 +1,243 @@
+{
+	"info": {
+		"_postman_id": "37e8c8e2-41b0-4bf9-9171-64302637d61d",
+		"name": "quiz",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "question",
+			"item": [
+				{
+					"name": "get_questions",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8000/ques/questions_list/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"ques",
+								"questions_list",
+								""
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "get_questions_failed",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8000/ques/questions_list/",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8000",
+									"path": [
+										"ques",
+										"questions_list",
+										""
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Sun, 15 Nov 2020 11:31:04 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "WSGIServer/0.2 CPython/3.8.2"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "DENY"
+								},
+								{
+									"key": "Content-Length",
+									"value": "49"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Referrer-Policy",
+									"value": "same-origin"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"errors\": \"you have not permission this method\"\n}"
+						},
+						{
+							"name": "get_questions_success",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8000/ques/questions_list/",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8000",
+									"path": [
+										"ques",
+										"questions_list",
+										""
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Sun, 15 Nov 2020 11:23:55 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "WSGIServer/0.2 CPython/3.8.2"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "DENY"
+								},
+								{
+									"key": "Content-Length",
+									"value": "3283"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Referrer-Policy",
+									"value": "same-origin"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"question_id\": 94,\n        \"cat_name\": \"سینما\",\n        \"cat_id\": 6,\n        \"option1\": \"khoobi\",\n        \"option2\": \"khoobam\",\n        \"option3\": \"salam\",\n        \"option4\": \"chetori\"\n    },\n    {\n        \"question_id\": 158,\n        \"cat_name\": \"سینما\",\n        \"cat_id\": 6,\n        \"option1\": \"khoobi\",\n        \"option2\": \"khoobam\",\n        \"option3\": \"salam\",\n        \"option4\": \"chetori\"\n    },\n    {\n        \"question_id\": 104,\n        \"cat_name\": \"سینما\",\n        \"cat_id\": 6,\n        \"option1\": \"khoobam\",\n        \"option2\": \"salam\",\n        \"option3\": \"chetori\",\n        \"option4\": \"khoobi\"\n    },\n    {\n        \"question_id\": 84,\n        \"cat_name\": \"سینما\",\n        \"cat_id\": 6,\n        \"option1\": \"khoobam\",\n        \"option2\": \"salam\",\n        \"option3\": \"khoobi\",\n        \"option4\": \"chetori\"\n    },\n    {\n        \"question_id\": 114,\n        \"cat_name\": \"سینما\",\n        \"cat_id\": 6,\n        \"option1\": \"chetori\",\n        \"option2\": \"salam\",\n        \"option3\": \"khoobam\",\n        \"option4\": \"khoobi\"\n    },\n    {\n        \"question_id\": 122,\n        \"cat_name\": \"ورزشی\",\n        \"cat_id\": 7,\n        \"option1\": \"salam\",\n        \"option2\": \"khoobi\",\n        \"option3\": \"chetori\",\n        \"option4\": \"khoobam\"\n    },\n    {\n        \"question_id\": 86,\n        \"cat_name\": \"ورزشی\",\n        \"cat_id\": 7,\n        \"option1\": \"chetori\",\n        \"option2\": \"khoobi\",\n        \"option3\": \"salam\",\n        \"option4\": \"khoobam\"\n    },\n    {\n        \"question_id\": 97,\n        \"cat_name\": \"ورزشی\",\n        \"cat_id\": 7,\n        \"option1\": \"salam\",\n        \"option2\": \"khoobam\",\n        \"option3\": \"khoobi\",\n        \"option4\": \"chetori\"\n    },\n    {\n        \"question_id\": 83,\n        \"cat_name\": \"ورزشی\",\n        \"cat_id\": 7,\n        \"option1\": \"khoobam\",\n        \"option2\": \"chetori\",\n        \"option3\": \"khoobi\",\n        \"option4\": \"salam\"\n    },\n    {\n        \"question_id\": 100,\n        \"cat_name\": \"ورزشی\",\n        \"cat_id\": 7,\n        \"option1\": \"khoobam\",\n        \"option2\": \"salam\",\n        \"option3\": \"chetori\",\n        \"option4\": \"khoobi\"\n    },\n    {\n        \"question_id\": 99,\n        \"cat_name\": \"سیاسی\",\n        \"cat_id\": 8,\n        \"option1\": \"khoobam\",\n        \"option2\": \"chetori\",\n        \"option3\": \"khoobi\",\n        \"option4\": \"salam\"\n    },\n    {\n        \"question_id\": 161,\n        \"cat_name\": \"سیاسی\",\n        \"cat_id\": 8,\n        \"option1\": \"salam\",\n        \"option2\": \"khoobam\",\n        \"option3\": \"khoobi\",\n        \"option4\": \"chetori\"\n    },\n    {\n        \"question_id\": 136,\n        \"cat_name\": \"سیاسی\",\n        \"cat_id\": 8,\n        \"option1\": \"khoobam\",\n        \"option2\": \"khoobi\",\n        \"option3\": \"salam\",\n        \"option4\": \"chetori\"\n    },\n    {\n        \"question_id\": 95,\n        \"cat_name\": \"سیاسی\",\n        \"cat_id\": 8,\n        \"option1\": \"salam\",\n        \"option2\": \"chetori\",\n        \"option3\": \"khoobam\",\n        \"option4\": \"khoobi\"\n    },\n    {\n        \"question_id\": 155,\n        \"cat_name\": \"سیاسی\",\n        \"cat_id\": 8,\n        \"option1\": \"khoobam\",\n        \"option2\": \"chetori\",\n        \"option3\": \"salam\",\n        \"option4\": \"khoobi\"\n    },\n    {\n        \"question_id\": 126,\n        \"cat_name\": \"هنری\",\n        \"cat_id\": 9,\n        \"option1\": \"khoobam\",\n        \"option2\": \"khoobi\",\n        \"option3\": \"chetori\",\n        \"option4\": \"salam\"\n    },\n    {\n        \"question_id\": 148,\n        \"cat_name\": \"هنری\",\n        \"cat_id\": 9,\n        \"option1\": \"khoobam\",\n        \"option2\": \"salam\",\n        \"option3\": \"khoobi\",\n        \"option4\": \"chetori\"\n    },\n    {\n        \"question_id\": 123,\n        \"cat_name\": \"هنری\",\n        \"cat_id\": 9,\n        \"option1\": \"salam\",\n        \"option2\": \"khoobam\",\n        \"option3\": \"khoobi\",\n        \"option4\": \"chetori\"\n    },\n    {\n        \"question_id\": 120,\n        \"cat_name\": \"هنری\",\n        \"cat_id\": 9,\n        \"option1\": \"chetori\",\n        \"option2\": \"khoobi\",\n        \"option3\": \"khoobam\",\n        \"option4\": \"salam\"\n    },\n    {\n        \"question_id\": 157,\n        \"cat_name\": \"هنری\",\n        \"cat_id\": 9,\n        \"option1\": \"salam\",\n        \"option2\": \"khoobam\",\n        \"option3\": \"khoobi\",\n        \"option4\": \"chetori\"\n    }\n]"
+						}
+					]
+				},
+				{
+					"name": "answer_question",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"111\":1,\n    \"84\":1\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8000/ques/answer/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"ques",
+								"answer",
+								""
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "answer_question",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"111\":1,\n    \"84\":1\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8000/ques/answer/",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8000",
+									"path": [
+										"ques",
+										"answer",
+										""
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Sun, 15 Nov 2020 11:59:05 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "WSGIServer/0.2 CPython/3.8.2"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "DENY"
+								},
+								{
+									"key": "Content-Length",
+									"value": "22"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Referrer-Policy",
+									"value": "same-origin"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"score:\": \"3.33/100\"\n}"
+						}
+					]
+				}
+			],
+			"protocolProfileBehavior": {}
+		}
+	],
+	"protocolProfileBehavior": {}
+}
