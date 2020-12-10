@@ -1,5 +1,5 @@
-{% extends 'base.html' %}
-
+{% extends 'base-restaurant-app.html' %}
+{% load resturant_tags %}
 
 {% block title %}
 جزئیات {{element.name}}
@@ -13,7 +13,11 @@
     {% for address in element.address.all %}
     <li>
         {{address.city}}
+        {{address.address_txt}}
+
     </li>
     {% endfor %}
+    {{price|comma_seperator:"2"}}
+    {% get_object_by_name 'lebas shui'%}
 </ul>
 {% endblock content %}

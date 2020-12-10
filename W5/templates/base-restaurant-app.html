@@ -5,8 +5,7 @@
 
     <head>
         <meta charset="UTF-8">
-        <title>{% block title %}
-            {% endblock title %}</title>
+        <title>{% block title %} {% endblock title %}</title>
 
         <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
         <link rel="stylesheet" href="{% static 'css/style.css' %}">
@@ -15,6 +14,7 @@
         <style>
             body {
                 direction: rtl;
+                background: gray;
             }
         </style>
 
@@ -27,8 +27,7 @@
             </div>
             <div>
                 <div class="content">
-                    {% block content %}
-                    {% endblock content %}
+                    {% block content %} {% endblock content %}
                 </div>
                 <div id="sidbar">
                     {% include 'side.html' %}

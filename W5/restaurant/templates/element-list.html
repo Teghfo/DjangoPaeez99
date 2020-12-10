@@ -1,4 +1,5 @@
-{% extends 'base.html' %}
+{% extends 'base-restaurant-app.html' %}
+{% load static %}
 
 
 {% block title %}
@@ -8,8 +9,49 @@
 {% block content %}
 <h1>صفحه {{category.title}} </h1>
 <p>{{ name }}</p>
+<div class="menu-list-container">
 
-{% for e in elements %}
-<a href="{% url 'element-detail' elem_id=e.id %}">{{e.name}}</a>
-{% endfor %}
+
+    {% for e in elements %}
+    <div class="card bg-primary m-4" style="width: 15rem;">
+        <img src="{% static 'img/d1.jpg'%}" class="card-img-top" alt="logo">
+        <div class="card-body text-center">
+            <a href="{% url 'element-detail' elem_id=e.id %}">
+                <h5 class="card-title text-white">{{e.name}}</h5>
+            </a>
+            <p class="card-text mt-5 small font-weight-light">{{e.descriptions}}</p>
+            <a type="button" href="{% url 'element-detail' elem_id=e.id %}" class="btn btn-outline-dark">
+                <span class="small"> نمایش منو </span></a>
+        </div>
+
+    </div>
+    {% endfor %}
+
+</div>
+
+
+
+<div class="pagination">
+    <div>
+
+
+        <span class="step-links">
+            {% if page_obj.has_previous %}
+            <a href="?page=1">&laquo; first</a>
+            <a href="?page={{ page_obj.previous_page_number }}">{{ page_obj.previous_page_number }}</a>
+            {% endif %}
+
+            <span class="current">
+                Page {{ page_obj.number }} of {{ page_obj.paginator.num_pages }}.
+            </span>
+
+            {% if page_obj.has_next %}
+            <a href="?page={{ page_obj.next_page_number }}">{{page_obj.next_page_number}}</a>
+            <a href="?page={{ page_obj.paginator.num_pages }}">last &raquo;</a>
+            {% endif %}
+        </span>
+
+    </div>
+</div>
+
 {% endblock content %}

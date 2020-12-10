@@ -6,12 +6,42 @@
 
 {% block content %}
 <div class='home-title'>
-    <h1>سفارش آنلاین غذا، شیرینی و خرید از کافی شاپ و سوپرمارکت ها</h1>
+    <h1>سفارش آنلاین غذا، شیرینی و خرید از کافی شاپ و سوپرمارکت ها با مپصافود</h1>
+</div>
+<div class="area-search-wrapper area-active-search-box">
+    <div class="area-search">
+        <form action="/" method="get">
+            <span class="input" style="position: relative; display: inline-block">
+                <input class=" homepage__input" name="shahr" placeholder="شهر" type="text">
+            </span>
+            <span class="twitter-typeahead">
+                <input class="homepage__input" name="mahahleh" placeholder="محله" type="text">
+            </span>
+
+            <span class="input" style="position: relative; display: inline-block">
+                <input class=" homepage__input" placeholder="نام غذا" type="text">
+            </span>
+            <span class="input" style="position: relative; display: inline-block">
+                <input class=" homepage__input" placeholder="نام رستوران" type="text">
+            </span>
+
+
+            <span><input class="homepage__btn" type="submit" value="جستجو"></span>
+
+
+        </form>
+    </div>
 </div>
 <div class="search-section__main__services">
     {% for e in category %}
-    {% if e.poster %}<img src="{{e.poster.url}}" alt="">{% endif %}
-    <a href="{% url 'element-list' cat_id=e.id cat_title=e.title %}">{{e.title}}</a>
+    <a href="{% url 'element-list' cat_id=e.id cat_title=e.title %}">
+        <figure class="search-section__main__services__item">
+            {% if e.poster %}<img src="{{e.poster.url}}" alt="{{e.title}}">{% endif %}
+            <div class="search-section__main__services__title">
+                <p>{{e.title|truncatechars:8}}</p>
+            </div>
+        </figure>
+    </a>
     {% endfor %}
 </div>
 {% endblock content %}
