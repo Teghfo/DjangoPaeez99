@@ -45,6 +45,8 @@ class SignUp(View):
         if form.is_valid():
             form.save()
             return redirect('login')
-        else:
-            form = CustomUserCreationForm()
+
+        context = {
+            'form': form
+        }
         return render(request, 'signup.html', context)
