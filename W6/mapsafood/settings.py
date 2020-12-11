@@ -62,6 +62,7 @@ INSTALLED_APPS = [
     'geolocation',
     'restaurant',
     'contact_admin',
+    'order',
 ]
 # DJANGO_ALLOW_ASYNC_UNSAFE = False
 os.environ["DJANGO_ALLOW_ASYNC_UNSAFE"] = "true"
@@ -153,7 +154,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Asia/Tehran'
 
 USE_I18N = True
 

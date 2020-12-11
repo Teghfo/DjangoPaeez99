@@ -1,6 +1,12 @@
 <div class="header">
     <div>
         <a href="{% url 'home' %}">مپصا فود</a>
+        {% if request.user.is_authenticated %}
+        <span>hello {{user.email}}</span>
+        <a href="{% url 'logout' %}"><button class="btn btn-primary">خروج</button></a>
+        {% else %}
+        <a href="{% url 'login' %}"><button class="btn btn-primary">ورود</button></a>
+        {% endif %}
     </div>
     {% comment %} <div>
         <button class="btn bg-dark  ">عضویت</button>
