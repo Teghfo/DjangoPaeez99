@@ -10,19 +10,19 @@
 </div>
 <div class="area-search-wrapper area-active-search-box">
     <div class="area-search">
-        <form action="/" method="get">
+        <form action="restaurant/search/" method="get">
             <span class="input" style="position: relative; display: inline-block">
-                <input class=" homepage__input" name="shahr" placeholder="شهر" type="text">
+                <input class=" homepage__input" name="city_name" placeholder="شهر" type="text">
             </span>
             <span class="twitter-typeahead">
-                <input class="homepage__input" name="mahahleh" placeholder="محله" type="text">
+                <input class="homepage__input" name="street_name" placeholder="محله" type="text">
             </span>
 
             <span class="input" style="position: relative; display: inline-block">
-                <input class=" homepage__input" placeholder="نام غذا" type="text">
+                <input class=" homepage__input" name='food_name' placeholder="نام غذا" type="text">
             </span>
             <span class="input" style="position: relative; display: inline-block">
-                <input class=" homepage__input" placeholder="نام رستوران" type="text">
+                <input class=" homepage__input" name='res_name' placeholder="نام رستوران" type="text">
             </span>
 
 
@@ -44,4 +44,5 @@
     </a>
     {% endfor %}
 </div>
+
 {% endblock content %}

@@ -27,6 +27,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+AUTH_USER_MODEL = 'user_profile.User'
+
 LOGGING = {
     'version': 1,
     'handlers': {
@@ -59,6 +61,7 @@ INSTALLED_APPS = [
     'user_profile',
     'geolocation',
     'restaurant',
+    'contact_admin',
 ]
 # DJANGO_ALLOW_ASYNC_UNSAFE = False
 os.environ["DJANGO_ALLOW_ASYNC_UNSAFE"] = "true"
@@ -101,22 +104,31 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'mapsafood.wsgi.application'
 
-
+AUTHENTICATION_BACKENDS = (
+    'django.contrib.auth.backends.RemoteUserBackend',
+    'django.contrib.auth.backends.ModelBackend',
+)
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'mapsafood',
+#         'USER': 'ashkanfood',
+#         'PASSWORD': '123456',
+#         'HOST': 'localhost',
+#         'PORT': '5432'
+#     }
+# }
+
+
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'mapsafood',
-        'USER': 'ashkanfood',
-        'PASSWORD': '123456',
-        'HOST': 'localhost',
-        'PORT': '5432'
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
-
-
 # Password validation
 # https://docs.djangoproject.com/en/3.1/ref/settings/#auth-password-validators
 
@@ -139,7 +151,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/3.1/topics/i18n/
 
-LANGUAGE_CODE = 'fa'
+LANGUAGE_CODE = 'en-us'
 
 TIME_ZONE = 'UTC'
 

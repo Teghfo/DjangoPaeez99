@@ -1,1 +1,2380 @@
-[{"model": "admin.logentry", "pk": 1, "fields": {"action_time": "2020-11-06T12:28:18.475Z", "user": 1, "content_type": 4, "object_id": "2", "object_repr": "khalil", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 2, "fields": {"action_time": "2020-11-06T12:28:49.705Z", "user": 1, "content_type": 4, "object_id": "2", "object_repr": "khalil", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\", \"Email address\", \"Staff status\"]}}]"}}, {"model": "admin.logentry", "pk": 3, "fields": {"action_time": "2020-11-06T12:29:31.001Z", "user": 1, "content_type": 7, "object_id": "1", "object_repr": "khalil", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 4, "fields": {"action_time": "2020-11-06T12:30:44.096Z", "user": 1, "content_type": 8, "object_id": "1", "object_repr": "Address object (1)", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 5, "fields": {"action_time": "2020-11-06T12:40:45.746Z", "user": 1, "content_type": 8, "object_id": "2", "object_repr": "khalil - priority: 2", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 6, "fields": {"action_time": "2020-11-06T12:56:57.793Z", "user": 1, "content_type": 7, "object_id": "2", "object_repr": "admin", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 7, "fields": {"action_time": "2020-11-06T12:57:39.464Z", "user": 1, "content_type": 8, "object_id": "3", "object_repr": "admin - priority: 1", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 8, "fields": {"action_time": "2020-11-06T13:31:37.127Z", "user": 1, "content_type": 4, "object_id": "5", "object_repr": "1234569865", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Staff status\"]}}]"}}, {"model": "admin.logentry", "pk": 9, "fields": {"action_time": "2020-11-06T15:10:02.709Z", "user": 1, "content_type": 12, "object_id": "1", "object_repr": "caffeshop", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 10, "fields": {"action_time": "2020-11-06T15:10:16.925Z", "user": 1, "content_type": 12, "object_id": "2", "object_repr": "kataring", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 11, "fields": {"action_time": "2020-11-06T15:10:33.023Z", "user": 1, "content_type": 12, "object_id": "3", "object_repr": "ghaza", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 12, "fields": {"action_time": "2020-11-06T15:13:19.320Z", "user": 1, "content_type": 11, "object_id": "2", "object_repr": "2 in خلیل کبابی", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 13, "fields": {"action_time": "2020-11-12T12:53:33.545Z", "user": 1, "content_type": 12, "object_id": "1", "object_repr": "کبابی", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 14, "fields": {"action_time": "2020-11-12T12:53:38.633Z", "user": 1, "content_type": 11, "object_id": "1", "object_repr": "1- خلیل", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 15, "fields": {"action_time": "2020-11-12T12:53:41.419Z", "user": 1, "content_type": 13, "object_id": "1", "object_repr": "1- خلیل", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 16, "fields": {"action_time": "2020-11-12T12:54:26.267Z", "user": 1, "content_type": 13, "object_id": "2", "object_repr": "2- خلیل", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 17, "fields": {"action_time": "2020-11-12T12:54:49.527Z", "user": 1, "content_type": 13, "object_id": "1", "object_repr": "1- خلیل", "action_flag": 2, "change_message": "[]"}}, {"model": "admin.logentry", "pk": 18, "fields": {"action_time": "2020-11-12T12:55:10.186Z", "user": 1, "content_type": 13, "object_id": "3", "object_repr": "3- خلیل", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 19, "fields": {"action_time": "2020-11-12T12:56:01.333Z", "user": 1, "content_type": 11, "object_id": "2", "object_repr": "2- ش", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 20, "fields": {"action_time": "2020-11-12T12:56:35.183Z", "user": 1, "content_type": 13, "object_id": "4", "object_repr": "4- ش", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 21, "fields": {"action_time": "2020-11-12T14:02:36.832Z", "user": 1, "content_type": 15, "object_id": "1", "object_repr": "Author object (1)", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 22, "fields": {"action_time": "2020-11-12T14:02:46.353Z", "user": 1, "content_type": 14, "object_id": "1", "object_repr": "Article object (1)", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 23, "fields": {"action_time": "2020-11-12T14:04:10.532Z", "user": 1, "content_type": 15, "object_id": "2", "object_repr": "ملا اکبر", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 24, "fields": {"action_time": "2020-11-12T14:04:29.445Z", "user": 1, "content_type": 14, "object_id": "2", "object_repr": "باورهای عجیب غریب", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 25, "fields": {"action_time": "2020-11-13T13:44:35.945Z", "user": 1, "content_type": 12, "object_id": "2", "object_repr": "رستوران", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 26, "fields": {"action_time": "2020-11-13T13:44:46.060Z", "user": 1, "content_type": 12, "object_id": "3", "object_repr": "کافی شاپ", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 27, "fields": {"action_time": "2020-11-13T13:46:24.920Z", "user": 1, "content_type": 12, "object_id": "1", "object_repr": "کبابی", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 28, "fields": {"action_time": "2020-11-13T13:55:17.479Z", "user": 1, "content_type": 12, "object_id": "4", "object_repr": "شیرینی", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 29, "fields": {"action_time": "2020-11-13T13:55:49.477Z", "user": 1, "content_type": 12, "object_id": "5", "object_repr": "سوپرمارکت", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 30, "fields": {"action_time": "2020-11-13T13:56:06.145Z", "user": 1, "content_type": 12, "object_id": "6", "object_repr": "فود کورت", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 31, "fields": {"action_time": "2020-11-13T13:56:44.954Z", "user": 1, "content_type": 16, "object_id": "1", "object_repr": "کبابی", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 32, "fields": {"action_time": "2020-11-13T13:56:56.109Z", "user": 1, "content_type": 16, "object_id": "2", "object_repr": "فست فود", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 33, "fields": {"action_time": "2020-11-13T14:20:46.093Z", "user": 1, "content_type": 18, "object_id": "1", "object_repr": "رستو", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 34, "fields": {"action_time": "2020-11-13T14:20:53.755Z", "user": 1, "content_type": 18, "object_id": "1", "object_repr": "رستوران", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Title\"]}}]"}}, {"model": "admin.logentry", "pk": 35, "fields": {"action_time": "2020-11-13T14:21:06.825Z", "user": 1, "content_type": 18, "object_id": "2", "object_repr": "کافی شاپ", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 36, "fields": {"action_time": "2020-11-13T14:21:09.857Z", "user": 1, "content_type": 18, "object_id": "2", "object_repr": "کافی شاپ", "action_flag": 2, "change_message": "[]"}}, {"model": "admin.logentry", "pk": 37, "fields": {"action_time": "2020-11-13T14:21:18.934Z", "user": 1, "content_type": 18, "object_id": "3", "object_repr": "سوپرمارکت", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 38, "fields": {"action_time": "2020-11-13T14:21:25.176Z", "user": 1, "content_type": 18, "object_id": "4", "object_repr": "شیرینی", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 39, "fields": {"action_time": "2020-11-13T14:21:44.434Z", "user": 1, "content_type": 16, "object_id": "1", "object_repr": "فست فود", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 40, "fields": {"action_time": "2020-11-13T14:21:50.856Z", "user": 1, "content_type": 16, "object_id": "2", "object_repr": "کبابی", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 41, "fields": {"action_time": "2020-11-13T14:22:00.781Z", "user": 1, "content_type": 16, "object_id": "3", "object_repr": "غذای ایرانی", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 42, "fields": {"action_time": "2020-11-13T14:25:39.135Z", "user": 1, "content_type": 17, "object_id": "1", "object_repr": "1- باروژ (سردار جنگل)", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 43, "fields": {"action_time": "2020-11-13T14:27:15.011Z", "user": 1, "content_type": 19, "object_id": "5", "object_repr": "5- باروژ (سردار جنگل)", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 44, "fields": {"action_time": "2020-11-13T14:28:07.156Z", "user": 1, "content_type": 17, "object_id": "2", "object_repr": "2- برگر لند (سعادت آباد)", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 45, "fields": {"action_time": "2020-11-13T14:30:05.262Z", "user": 1, "content_type": 19, "object_id": "6", "object_repr": "6- برگر لند (سعادت آباد)", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 46, "fields": {"action_time": "2020-11-14T18:01:06.236Z", "user": 1, "content_type": 17, "object_id": "2", "object_repr": "2- برگر لند", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"}}, {"model": "admin.logentry", "pk": 47, "fields": {"action_time": "2020-11-14T18:01:15.338Z", "user": 1, "content_type": 17, "object_id": "1", "object_repr": "1- باروژ", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"}}, {"model": "admin.logentry", "pk": 48, "fields": {"action_time": "2020-11-14T19:37:12.601Z", "user": 1, "content_type": 18, "object_id": "2", "object_repr": "کافی شاپ", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"}}, {"model": "admin.logentry", "pk": 49, "fields": {"action_time": "2020-11-14T19:39:53.729Z", "user": 1, "content_type": 18, "object_id": "2", "object_repr": "کافی شاپ", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"}}, {"model": "admin.logentry", "pk": 50, "fields": {"action_time": "2020-11-14T20:06:33.457Z", "user": 1, "content_type": 18, "object_id": "2", "object_repr": "کافی شاپ", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"}}, {"model": "admin.logentry", "pk": 51, "fields": {"action_time": "2020-11-14T20:18:54.937Z", "user": 1, "content_type": 18, "object_id": "2", "object_repr": "کافی شاپ", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Poster\"]}}]"}}, {"model": "admin.logentry", "pk": 52, "fields": {"action_time": "2020-11-17T10:21:19.360Z", "user": 1, "content_type": 18, "object_id": "4", "object_repr": "شیرینی", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Poster\"]}}]"}}, {"model": "admin.logentry", "pk": 53, "fields": {"action_time": "2020-11-17T10:21:28.763Z", "user": 1, "content_type": 18, "object_id": "3", "object_repr": "سوپرمارکت", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Poster\"]}}]"}}, {"model": "admin.logentry", "pk": 54, "fields": {"action_time": "2020-11-17T10:21:37.943Z", "user": 1, "content_type": 18, "object_id": "1", "object_repr": "رستوران", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Poster\"]}}]"}}, {"model": "admin.logentry", "pk": 55, "fields": {"action_time": "2020-11-17T11:17:36.457Z", "user": 1, "content_type": 16, "object_id": "4", "object_repr": "آبمیوه", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 56, "fields": {"action_time": "2020-11-17T11:17:47.433Z", "user": 1, "content_type": 17, "object_id": "3", "object_repr": "3- آبمیوه بستنی منگو", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 57, "fields": {"action_time": "2020-11-17T11:18:55.556Z", "user": 1, "content_type": 19, "object_id": "7", "object_repr": "7- آبمیوه بستنی منگو", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 58, "fields": {"action_time": "2020-11-17T11:20:47.546Z", "user": 1, "content_type": 17, "object_id": "4", "object_repr": "4- کافه دژاوو", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 59, "fields": {"action_time": "2020-11-17T11:54:38.902Z", "user": 1, "content_type": 17, "object_id": "4", "object_repr": "4- کافه دژاوو", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Descriptions\"]}}]"}}, {"model": "admin.logentry", "pk": 60, "fields": {"action_time": "2020-11-17T12:10:43.405Z", "user": 1, "content_type": 19, "object_id": "8", "object_repr": "8- آبمیوه بستنی منگو", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 61, "fields": {"action_time": "2020-11-19T11:34:37.283Z", "user": 1, "content_type": 17, "object_id": "4", "object_repr": "4- کافه دژاوو", "action_flag": 2, "change_message": "[{\"added\": {\"name\": \"element address\", \"object\": \"9- \\u06a9\\u0627\\u0641\\u0647 \\u062f\\u0698\\u0627\\u0648\\u0648\"}}]"}}, {"model": "admin.logentry", "pk": 62, "fields": {"action_time": "2020-11-19T14:31:00.527Z", "user": 1, "content_type": 17, "object_id": "5", "object_repr": "5- شکلات شکووین", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 63, "fields": {"action_time": "2020-11-19T15:01:21.256Z", "user": 1, "content_type": 17, "object_id": "6", "object_repr": "6- شکلات شکووین", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 64, "fields": {"action_time": "2020-11-19T15:05:21Z", "user": 1, "content_type": 17, "object_id": "6", "object_repr": "6- شکلات شکووین", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Slug\"]}}]"}}, {"model": "admin.logentry", "pk": 65, "fields": {"action_time": "2020-11-20T12:15:34.281Z", "user": 1, "content_type": 20, "object_id": "1", "object_repr": "غذای ایرانی in باروژ", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 66, "fields": {"action_time": "2020-11-20T12:19:24.558Z", "user": 1, "content_type": 20, "object_id": "None", "object_repr": "غذای ایرانی in باروژ", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 67, "fields": {"action_time": "2020-11-20T12:45:40.326Z", "user": 1, "content_type": 21, "object_id": "2", "object_repr": "چلو خورشت قیمه سیب زمینی_غذای ایرانی", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 68, "fields": {"action_time": "2020-11-20T12:48:04.156Z", "user": 1, "content_type": 21, "object_id": "2", "object_repr": "چلو خورشت قیمه سیب زمینی_غذای ایرانی", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Poster\"]}}]"}}, {"model": "admin.logentry", "pk": 69, "fields": {"action_time": "2020-11-20T12:48:54.512Z", "user": 1, "content_type": 21, "object_id": "2", "object_repr": "چلو خورشت قیمه سیب زمینی_غذای ایرانی", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Poster\"]}}]"}}, {"model": "admin.logentry", "pk": 70, "fields": {"action_time": "2020-11-20T13:28:07.432Z", "user": 1, "content_type": 22, "object_id": "1", "object_repr": "Account object (1)", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 71, "fields": {"action_time": "2020-11-20T13:28:15.770Z", "user": 1, "content_type": 22, "object_id": "1", "object_repr": "Account object (1)", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"}}, {"model": "admin.logentry", "pk": 72, "fields": {"action_time": "2020-11-20T13:28:29.779Z", "user": 1, "content_type": 22, "object_id": "2", "object_repr": "Account object (2)", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 73, "fields": {"action_time": "2020-11-20T13:28:37.336Z", "user": 1, "content_type": 22, "object_id": "3", "object_repr": "Account object (3)", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 74, "fields": {"action_time": "2020-11-20T13:28:49.084Z", "user": 1, "content_type": 24, "object_id": "1", "object_repr": "Supplier object (1)", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 75, "fields": {"action_time": "2020-11-20T13:28:52.368Z", "user": 1, "content_type": 24, "object_id": "2", "object_repr": "Supplier object (2)", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 76, "fields": {"action_time": "2020-11-20T13:28:55.994Z", "user": 1, "content_type": 24, "object_id": "3", "object_repr": "Supplier object (3)", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 77, "fields": {"action_time": "2020-11-20T13:42:41.635Z", "user": 1, "content_type": 23, "object_id": "2", "object_repr": "Product object (2)", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Supplier\"]}}]"}}, {"model": "admin.logentry", "pk": 78, "fields": {"action_time": "2020-11-20T13:49:13.906Z", "user": 1, "content_type": 22, "object_id": "2", "object_repr": "Account object (2)", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"}}, {"model": "admin.logentry", "pk": 79, "fields": {"action_time": "2020-11-21T17:51:24.185Z", "user": 1, "content_type": 20, "object_id": "1", "object_repr": "غذای ایرانی in باروژ", "action_flag": 2, "change_message": "[]"}}, {"model": "admin.logentry", "pk": 80, "fields": {"action_time": "2020-11-21T17:51:38.796Z", "user": 1, "content_type": 20, "object_id": "2", "object_repr": "غذای ایرانی in برگر لند", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 81, "fields": {"action_time": "2020-11-21T18:11:24.682Z", "user": 1, "content_type": 20, "object_id": "2", "object_repr": "غذای ایرانی in برگر لند", "action_flag": 2, "change_message": "[]"}}, {"model": "admin.logentry", "pk": 82, "fields": {"action_time": "2020-12-08T11:52:44.952Z", "user": 1, "content_type": 17, "object_id": "4", "object_repr": "4- کافه دژاوو", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Category\", \"Slug\"]}}]"}}, {"model": "admin.logentry", "pk": 83, "fields": {"action_time": "2020-12-08T12:01:06.383Z", "user": 1, "content_type": 17, "object_id": "4", "object_repr": "4- کافه دژاوو", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Slug\"]}}]"}}, {"model": "admin.logentry", "pk": 84, "fields": {"action_time": "2020-12-08T19:26:54.242Z", "user": 1, "content_type": 21, "object_id": "3", "object_repr": "جوجه کباب_غذای ایرانی", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 85, "fields": {"action_time": "2020-12-08T20:35:09.474Z", "user": 1, "content_type": 17, "object_id": "1", "object_repr": "1- باروژ", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Slug\"]}}, {\"changed\": {\"name\": \"element address\", \"object\": \"5- \\u0628\\u0627\\u0631\\u0648\\u0698\", \"fields\": [\"\\u062e\\u06cc\\u0627\\u0628\\u0627\\u0646\"]}}]"}}, {"model": "admin.logentry", "pk": 86, "fields": {"action_time": "2020-12-10T11:17:19.637Z", "user": 1, "content_type": 20, "object_id": "3", "object_repr": "ایتالیایی in آبمیوه بستنی منگو", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 87, "fields": {"action_time": "2020-12-10T11:18:00.668Z", "user": 1, "content_type": 21, "object_id": "4", "object_repr": "سزار_ایتالیایی", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 88, "fields": {"action_time": "2020-12-10T11:20:48.584Z", "user": 1, "content_type": 17, "object_id": "3", "object_repr": "3- آبمیوه بستنی منگو", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Slug\"]}}, {\"added\": {\"name\": \"element address\", \"object\": \"10- \\u0622\\u0628\\u0645\\u06cc\\u0648\\u0647 \\u0628\\u0633\\u062a\\u0646\\u06cc \\u0645\\u0646\\u06af\\u0648\"}}]"}}, {"model": "auth.permission", "pk": 1, "fields": {"name": "Can add log entry", "content_type": 1, "codename": "add_logentry"}}, {"model": "auth.permission", "pk": 2, "fields": {"name": "Can change log entry", "content_type": 1, "codename": "change_logentry"}}, {"model": "auth.permission", "pk": 3, "fields": {"name": "Can delete log entry", "content_type": 1, "codename": "delete_logentry"}}, {"model": "auth.permission", "pk": 4, "fields": {"name": "Can view log entry", "content_type": 1, "codename": "view_logentry"}}, {"model": "auth.permission", "pk": 5, "fields": {"name": "Can add permission", "content_type": 2, "codename": "add_permission"}}, {"model": "auth.permission", "pk": 6, "fields": {"name": "Can change permission", "content_type": 2, "codename": "change_permission"}}, {"model": "auth.permission", "pk": 7, "fields": {"name": "Can delete permission", "content_type": 2, "codename": "delete_permission"}}, {"model": "auth.permission", "pk": 8, "fields": {"name": "Can view permission", "content_type": 2, "codename": "view_permission"}}, {"model": "auth.permission", "pk": 9, "fields": {"name": "Can add group", "content_type": 3, "codename": "add_group"}}, {"model": "auth.permission", "pk": 10, "fields": {"name": "Can change group", "content_type": 3, "codename": "change_group"}}, {"model": "auth.permission", "pk": 11, "fields": {"name": "Can delete group", "content_type": 3, "codename": "delete_group"}}, {"model": "auth.permission", "pk": 12, "fields": {"name": "Can view group", "content_type": 3, "codename": "view_group"}}, {"model": "auth.permission", "pk": 13, "fields": {"name": "Can add user", "content_type": 4, "codename": "add_user"}}, {"model": "auth.permission", "pk": 14, "fields": {"name": "Can change user", "content_type": 4, "codename": "change_user"}}, {"model": "auth.permission", "pk": 15, "fields": {"name": "Can delete user", "content_type": 4, "codename": "delete_user"}}, {"model": "auth.permission", "pk": 16, "fields": {"name": "Can view user", "content_type": 4, "codename": "view_user"}}, {"model": "auth.permission", "pk": 17, "fields": {"name": "Can add content type", "content_type": 5, "codename": "add_contenttype"}}, {"model": "auth.permission", "pk": 18, "fields": {"name": "Can change content type", "content_type": 5, "codename": "change_contenttype"}}, {"model": "auth.permission", "pk": 19, "fields": {"name": "Can delete content type", "content_type": 5, "codename": "delete_contenttype"}}, {"model": "auth.permission", "pk": 20, "fields": {"name": "Can view content type", "content_type": 5, "codename": "view_contenttype"}}, {"model": "auth.permission", "pk": 21, "fields": {"name": "Can add session", "content_type": 6, "codename": "add_session"}}, {"model": "auth.permission", "pk": 22, "fields": {"name": "Can change session", "content_type": 6, "codename": "change_session"}}, {"model": "auth.permission", "pk": 23, "fields": {"name": "Can delete session", "content_type": 6, "codename": "delete_session"}}, {"model": "auth.permission", "pk": 24, "fields": {"name": "Can view session", "content_type": 6, "codename": "view_session"}}, {"model": "auth.permission", "pk": 25, "fields": {"name": "Can add profile", "content_type": 7, "codename": "add_profile"}}, {"model": "auth.permission", "pk": 26, "fields": {"name": "Can change profile", "content_type": 7, "codename": "change_profile"}}, {"model": "auth.permission", "pk": 27, "fields": {"name": "Can delete profile", "content_type": 7, "codename": "delete_profile"}}, {"model": "auth.permission", "pk": 28, "fields": {"name": "Can view profile", "content_type": 7, "codename": "view_profile"}}, {"model": "auth.permission", "pk": 29, "fields": {"name": "Can add address", "content_type": 8, "codename": "add_address"}}, {"model": "auth.permission", "pk": 30, "fields": {"name": "Can change address", "content_type": 8, "codename": "change_address"}}, {"model": "auth.permission", "pk": 31, "fields": {"name": "Can delete address", "content_type": 8, "codename": "delete_address"}}, {"model": "auth.permission", "pk": 32, "fields": {"name": "Can view address", "content_type": 8, "codename": "view_address"}}, {"model": "auth.permission", "pk": 33, "fields": {"name": "Can add user address", "content_type": 9, "codename": "add_useraddress"}}, {"model": "auth.permission", "pk": 34, "fields": {"name": "Can change user address", "content_type": 9, "codename": "change_useraddress"}}, {"model": "auth.permission", "pk": 35, "fields": {"name": "Can delete user address", "content_type": 9, "codename": "delete_useraddress"}}, {"model": "auth.permission", "pk": 36, "fields": {"name": "Can view user address", "content_type": 9, "codename": "view_useraddress"}}, {"model": "auth.permission", "pk": 37, "fields": {"name": "Can add address", "content_type": 10, "codename": "add_address"}}, {"model": "auth.permission", "pk": 38, "fields": {"name": "Can change address", "content_type": 10, "codename": "change_address"}}, {"model": "auth.permission", "pk": 39, "fields": {"name": "Can delete address", "content_type": 10, "codename": "delete_address"}}, {"model": "auth.permission", "pk": 40, "fields": {"name": "Can view address", "content_type": 10, "codename": "view_address"}}, {"model": "auth.permission", "pk": 41, "fields": {"name": "Can add restaurant", "content_type": 11, "codename": "add_restaurant"}}, {"model": "auth.permission", "pk": 42, "fields": {"name": "Can change restaurant", "content_type": 11, "codename": "change_restaurant"}}, {"model": "auth.permission", "pk": 43, "fields": {"name": "Can delete restaurant", "content_type": 11, "codename": "delete_restaurant"}}, {"model": "auth.permission", "pk": 44, "fields": {"name": "Can view restaurant", "content_type": 11, "codename": "view_restaurant"}}, {"model": "auth.permission", "pk": 45, "fields": {"name": "Can add restaurant cat", "content_type": 12, "codename": "add_restaurantcat"}}, {"model": "auth.permission", "pk": 46, "fields": {"name": "Can change restaurant cat", "content_type": 12, "codename": "change_restaurantcat"}}, {"model": "auth.permission", "pk": 47, "fields": {"name": "Can delete restaurant cat", "content_type": 12, "codename": "delete_restaurantcat"}}, {"model": "auth.permission", "pk": 48, "fields": {"name": "Can view restaurant cat", "content_type": 12, "codename": "view_restaurantcat"}}, {"model": "auth.permission", "pk": 49, "fields": {"name": "Can add restaurant address", "content_type": 13, "codename": "add_restaurantaddress"}}, {"model": "auth.permission", "pk": 50, "fields": {"name": "Can change restaurant address", "content_type": 13, "codename": "change_restaurantaddress"}}, {"model": "auth.permission", "pk": 51, "fields": {"name": "Can delete restaurant address", "content_type": 13, "codename": "delete_restaurantaddress"}}, {"model": "auth.permission", "pk": 52, "fields": {"name": "Can view restaurant address", "content_type": 13, "codename": "view_restaurantaddress"}}, {"model": "auth.permission", "pk": 53, "fields": {"name": "Can add article", "content_type": 14, "codename": "add_article"}}, {"model": "auth.permission", "pk": 54, "fields": {"name": "Can change article", "content_type": 14, "codename": "change_article"}}, {"model": "auth.permission", "pk": 55, "fields": {"name": "Can delete article", "content_type": 14, "codename": "delete_article"}}, {"model": "auth.permission", "pk": 56, "fields": {"name": "Can view article", "content_type": 14, "codename": "view_article"}}, {"model": "auth.permission", "pk": 57, "fields": {"name": "Can add author", "content_type": 15, "codename": "add_author"}}, {"model": "auth.permission", "pk": 58, "fields": {"name": "Can change author", "content_type": 15, "codename": "change_author"}}, {"model": "auth.permission", "pk": 59, "fields": {"name": "Can delete author", "content_type": 15, "codename": "delete_author"}}, {"model": "auth.permission", "pk": 60, "fields": {"name": "Can view author", "content_type": 15, "codename": "view_author"}}, {"model": "auth.permission", "pk": 61, "fields": {"name": "Can add category", "content_type": 12, "codename": "add_category"}}, {"model": "auth.permission", "pk": 62, "fields": {"name": "Can change category", "content_type": 12, "codename": "change_category"}}, {"model": "auth.permission", "pk": 63, "fields": {"name": "Can delete category", "content_type": 12, "codename": "delete_category"}}, {"model": "auth.permission", "pk": 64, "fields": {"name": "Can view category", "content_type": 12, "codename": "view_category"}}, {"model": "auth.permission", "pk": 65, "fields": {"name": "Can add sub category", "content_type": 16, "codename": "add_subcategory"}}, {"model": "auth.permission", "pk": 66, "fields": {"name": "Can change sub category", "content_type": 16, "codename": "change_subcategory"}}, {"model": "auth.permission", "pk": 67, "fields": {"name": "Can delete sub category", "content_type": 16, "codename": "delete_subcategory"}}, {"model": "auth.permission", "pk": 68, "fields": {"name": "Can view sub category", "content_type": 16, "codename": "view_subcategory"}}, {"model": "auth.permission", "pk": 69, "fields": {"name": "Can add element", "content_type": 17, "codename": "add_element"}}, {"model": "auth.permission", "pk": 70, "fields": {"name": "Can change element", "content_type": 17, "codename": "change_element"}}, {"model": "auth.permission", "pk": 71, "fields": {"name": "Can delete element", "content_type": 17, "codename": "delete_element"}}, {"model": "auth.permission", "pk": 72, "fields": {"name": "Can view element", "content_type": 17, "codename": "view_element"}}, {"model": "auth.permission", "pk": 73, "fields": {"name": "Can add category", "content_type": 18, "codename": "add_category"}}, {"model": "auth.permission", "pk": 74, "fields": {"name": "Can change category", "content_type": 18, "codename": "change_category"}}, {"model": "auth.permission", "pk": 75, "fields": {"name": "Can delete category", "content_type": 18, "codename": "delete_category"}}, {"model": "auth.permission", "pk": 76, "fields": {"name": "Can view category", "content_type": 18, "codename": "view_category"}}, {"model": "auth.permission", "pk": 77, "fields": {"name": "Can add element address", "content_type": 19, "codename": "add_elementaddress"}}, {"model": "auth.permission", "pk": 78, "fields": {"name": "Can change element address", "content_type": 19, "codename": "change_elementaddress"}}, {"model": "auth.permission", "pk": 79, "fields": {"name": "Can delete element address", "content_type": 19, "codename": "delete_elementaddress"}}, {"model": "auth.permission", "pk": 80, "fields": {"name": "Can view element address", "content_type": 19, "codename": "view_elementaddress"}}, {"model": "auth.permission", "pk": 81, "fields": {"name": "Can add menu cat", "content_type": 20, "codename": "add_menucat"}}, {"model": "auth.permission", "pk": 82, "fields": {"name": "Can change menu cat", "content_type": 20, "codename": "change_menucat"}}, {"model": "auth.permission", "pk": 83, "fields": {"name": "Can delete menu cat", "content_type": 20, "codename": "delete_menucat"}}, {"model": "auth.permission", "pk": 84, "fields": {"name": "Can view menu cat", "content_type": 20, "codename": "view_menucat"}}, {"model": "auth.permission", "pk": 85, "fields": {"name": "Can add food", "content_type": 21, "codename": "add_food"}}, {"model": "auth.permission", "pk": 86, "fields": {"name": "Can change food", "content_type": 21, "codename": "change_food"}}, {"model": "auth.permission", "pk": 87, "fields": {"name": "Can delete food", "content_type": 21, "codename": "delete_food"}}, {"model": "auth.permission", "pk": 88, "fields": {"name": "Can view food", "content_type": 21, "codename": "view_food"}}, {"model": "auth.permission", "pk": 89, "fields": {"name": "Can add account", "content_type": 22, "codename": "add_account"}}, {"model": "auth.permission", "pk": 90, "fields": {"name": "Can change account", "content_type": 22, "codename": "change_account"}}, {"model": "auth.permission", "pk": 91, "fields": {"name": "Can delete account", "content_type": 22, "codename": "delete_account"}}, {"model": "auth.permission", "pk": 92, "fields": {"name": "Can view account", "content_type": 22, "codename": "view_account"}}, {"model": "auth.permission", "pk": 93, "fields": {"name": "Can add product", "content_type": 23, "codename": "add_product"}}, {"model": "auth.permission", "pk": 94, "fields": {"name": "Can change product", "content_type": 23, "codename": "change_product"}}, {"model": "auth.permission", "pk": 95, "fields": {"name": "Can delete product", "content_type": 23, "codename": "delete_product"}}, {"model": "auth.permission", "pk": 96, "fields": {"name": "Can view product", "content_type": 23, "codename": "view_product"}}, {"model": "auth.permission", "pk": 97, "fields": {"name": "Can add supplier", "content_type": 24, "codename": "add_supplier"}}, {"model": "auth.permission", "pk": 98, "fields": {"name": "Can change supplier", "content_type": 24, "codename": "change_supplier"}}, {"model": "auth.permission", "pk": 99, "fields": {"name": "Can delete supplier", "content_type": 24, "codename": "delete_supplier"}}, {"model": "auth.permission", "pk": 100, "fields": {"name": "Can view supplier", "content_type": 24, "codename": "view_supplier"}}, {"model": "auth.user", "pk": 1, "fields": {"password": "pbkdf2_sha256$216000$OfM6inPQ9nj1$zEk4+i+RYhqnV9XyW4PC1k6siEdRkodnghGAq8XOh3Y=", "last_login": "2020-12-08T11:48:28.382Z", "is_superuser": true, "username": "admin", "first_name": "", "last_name": "", "email": "admin@test.com", "is_staff": true, "is_active": true, "date_joined": "2020-11-06T12:25:59.356Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 3, "fields": {"password": "mohsen", "last_login": null, "is_superuser": false, "username": "Mohsen", "first_name": "", "last_name": "", "email": "", "is_staff": false, "is_active": true, "date_joined": "2020-11-06T13:16:03.134Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 4, "fields": {"password": "mahdi", "last_login": null, "is_superuser": false, "username": "Mahdi", "first_name": "", "last_name": "", "email": "", "is_staff": false, "is_active": true, "date_joined": "2020-11-06T13:19:59.783Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 5, "fields": {"password": "pbkdf2_sha256$216000$r5X6ccs2hzGr$qTQz3Ysa2pObf4zlm6sgBUvR+0JgKBvVOGDyb+r6m/s=", "last_login": "2020-11-06T13:33:29.591Z", "is_superuser": false, "username": "1234569865", "first_name": "", "last_name": "", "email": "", "is_staff": true, "is_active": true, "date_joined": "2020-11-06T13:28:49Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 6, "fields": {"password": "", "last_login": null, "is_superuser": false, "username": "12345698", "first_name": "", "last_name": "", "email": "", "is_staff": false, "is_active": true, "date_joined": "2020-11-06T13:35:15.056Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 8, "fields": {"password": "", "last_login": null, "is_superuser": false, "username": "12345", "first_name": "", "last_name": "", "email": "", "is_staff": false, "is_active": true, "date_joined": "2020-11-06T13:36:25.680Z", "groups": [], "user_permissions": []}}, {"model": "contenttypes.contenttype", "pk": 1, "fields": {"app_label": "admin", "model": "logentry"}}, {"model": "contenttypes.contenttype", "pk": 2, "fields": {"app_label": "auth", "model": "permission"}}, {"model": "contenttypes.contenttype", "pk": 3, "fields": {"app_label": "auth", "model": "group"}}, {"model": "contenttypes.contenttype", "pk": 4, "fields": {"app_label": "auth", "model": "user"}}, {"model": "contenttypes.contenttype", "pk": 5, "fields": {"app_label": "contenttypes", "model": "contenttype"}}, {"model": "contenttypes.contenttype", "pk": 6, "fields": {"app_label": "sessions", "model": "session"}}, {"model": "contenttypes.contenttype", "pk": 7, "fields": {"app_label": "user_profile", "model": "profile"}}, {"model": "contenttypes.contenttype", "pk": 8, "fields": {"app_label": "user_profile", "model": "address"}}, {"model": "contenttypes.contenttype", "pk": 9, "fields": {"app_label": "user_profile", "model": "useraddress"}}, {"model": "contenttypes.contenttype", "pk": 10, "fields": {"app_label": "geolocation", "model": "address"}}, {"model": "contenttypes.contenttype", "pk": 11, "fields": {"app_label": "restaurant", "model": "restaurant"}}, {"model": "contenttypes.contenttype", "pk": 12, "fields": {"app_label": "restaurant", "model": "restaurantcat"}}, {"model": "contenttypes.contenttype", "pk": 13, "fields": {"app_label": "restaurant", "model": "restaurantaddress"}}, {"model": "contenttypes.contenttype", "pk": 14, "fields": {"app_label": "restaurant", "model": "article"}}, {"model": "contenttypes.contenttype", "pk": 15, "fields": {"app_label": "restaurant", "model": "author"}}, {"model": "contenttypes.contenttype", "pk": 16, "fields": {"app_label": "restaurant", "model": "subcategory"}}, {"model": "contenttypes.contenttype", "pk": 17, "fields": {"app_label": "restaurant", "model": "element"}}, {"model": "contenttypes.contenttype", "pk": 18, "fields": {"app_label": "restaurant", "model": "category"}}, {"model": "contenttypes.contenttype", "pk": 19, "fields": {"app_label": "restaurant", "model": "elementaddress"}}, {"model": "contenttypes.contenttype", "pk": 20, "fields": {"app_label": "restaurant", "model": "menucat"}}, {"model": "contenttypes.contenttype", "pk": 21, "fields": {"app_label": "restaurant", "model": "food"}}, {"model": "contenttypes.contenttype", "pk": 22, "fields": {"app_label": "restaurant", "model": "account"}}, {"model": "contenttypes.contenttype", "pk": 23, "fields": {"app_label": "restaurant", "model": "product"}}, {"model": "contenttypes.contenttype", "pk": 24, "fields": {"app_label": "restaurant", "model": "supplier"}}, {"model": "sessions.session", "pk": "51gv24rfxsgurhlg98a4ltfl77rltnwb", "fields": {"session_data": ".eJxVjMsOwiAQRf-FtSEDw0Ncuu83EGBAqgaS0q6M_65NutDtPefcF_NhW6vfRl78TOzCBDv9bjGkR247oHtot85Tb-syR74r_KCDT53y83q4fwc1jPqtnVCKYrTl7LIsRTlBEkQwBWQOmshq1No4oGRsQsJijJAJAQAzCYvs_QHhADdq:1kb1vS:FQYR-4XQ6nyPyLmu47VyEb1DhxsjI4ivI_BvXrtIzdU", "expire_date": "2020-11-20T13:37:10.980Z"}}, {"model": "sessions.session", "pk": "hvfcldla0fkjunmpmucrof8r3mb4vbos", "fields": {"session_data": ".eJxVjMsOwiAQRf-FtSEDw0Ncuu83EGBAqgaS0q6M_65NutDtPefcF_NhW6vfRl78TOzCBDv9bjGkR247oHtot85Tb-syR74r_KCDT53y83q4fwc1jPqtnVCKYrTl7LIsRTlBEkQwBWQOmshq1No4oGRsQsJijJAJAQAzCYvs_QHhADdq:1kmbTo:uwzLsTfcB0sLIgwKpgfaD6XKktAZ7k1rpI7pANYwgbs", "expire_date": "2020-12-22T11:48:28.392Z"}}, {"model": "sessions.session", "pk": "ig3e7qblg7d8mbk1y9gylsywo0bpvq6s", "fields": {"session_data": ".eJxVjMsOwiAQRf-FtSEDw0Ncuu83EGBAqgaS0q6M_65NutDtPefcF_NhW6vfRl78TOzCBDv9bjGkR247oHtot85Tb-syR74r_KCDT53y83q4fwc1jPqtnVCKYrTl7LIsRTlBEkQwBWQOmshq1No4oGRsQsJijJAJAQAzCYvs_QHhADdq:1kdC5P:TawDrcfI4KvYZH2cDfUW1npkSzaCfEry7odSZ_jQ8lc", "expire_date": "2020-11-26T12:52:23.996Z"}}, {"model": "sessions.session", "pk": "z5gyuxtz81i571mt2zj94idr1xorxl5g", "fields": {"session_data": ".eJxVjMsOwiAQRf-FtSEDw0Ncuu83EGBAqgaS0q6M_65NutDtPefcF_NhW6vfRl78TOzCBDv9bjGkR247oHtot85Tb-syR74r_KCDT53y83q4fwc1jPqtnVCKYrTl7LIsRTlBEkQwBWQOmshq1No4oGRsQsJijJAJAQAzCYvs_QHhADdq:1kg6S9:nyITavkEKDmOg4w8LNb-YsZFfve0xEB4N5vpI8-Dx_A", "expire_date": "2020-12-04T13:27:53.668Z"}}, {"model": "geolocation.address", "pk": 5, "fields": {"state": "tehran", "city": "تهران", "street": "شهران", "alley": "جنگل", "number": "2", "poste_code": "2", "priority_address": 1, "location": "نهران"}}, {"model": "geolocation.address", "pk": 6, "fields": {"state": "tehran", "city": "تهران", "street": "سعادت آباد", "alley": "سعادت آباد", "number": "2", "poste_code": "1", "priority_address": 1, "location": "تهران"}}, {"model": "geolocation.address", "pk": 7, "fields": {"state": "alborz", "city": "کرج", "street": "الیوت", "alley": "الیوت", "number": "2", "poste_code": "2", "priority_address": 1, "location": "1"}}, {"model": "geolocation.address", "pk": 8, "fields": {"state": "tehran", "city": "تهران", "street": "آزادی", "alley": "شریف", "number": "2", "poste_code": "2", "priority_address": 2, "location": "2"}}, {"model": "geolocation.address", "pk": 9, "fields": {"state": "tehran", "city": "تهران", "street": "شیخ بهایی", "alley": "امداد غربی", "number": "2", "poste_code": "2", "priority_address": 1, "location": "25"}}, {"model": "geolocation.address", "pk": 10, "fields": {"state": "tehran", "city": "تهران", "street": "اکباتان", "alley": "اکباتان", "number": "12", "poste_code": "5", "priority_address": 3, "location": "3"}}, {"model": "restaurant.category", "pk": 1, "fields": {"title": "رستوران", "poster": "category/restaurant.png"}}, {"model": "restaurant.category", "pk": 2, "fields": {"title": "کافی شاپ", "poster": "category/caffe_oj0ocjR.png"}}, {"model": "restaurant.category", "pk": 3, "fields": {"title": "سوپرمارکت", "poster": "category/market.png"}}, {"model": "restaurant.category", "pk": 4, "fields": {"title": "شیرینی", "poster": "category/candy.png"}}, {"model": "restaurant.subcategory", "pk": 1, "fields": {"sub_name": "فست فود", "category": 1}}, {"model": "restaurant.subcategory", "pk": 2, "fields": {"sub_name": "کبابی", "category": 1}}, {"model": "restaurant.subcategory", "pk": 3, "fields": {"sub_name": "غذای ایرانی", "category": 1}}, {"model": "restaurant.subcategory", "pk": 4, "fields": {"sub_name": "آبمیوه", "category": 2}}, {"model": "restaurant.element", "pk": 1, "fields": {"category": 1, "sub_category": 3, "name": "باروژ", "rate": 5.0, "descriptions": "توضیحات را ویرایش کنید", "slug": "باروژ-1"}}, {"model": "restaurant.element", "pk": 2, "fields": {"category": 1, "sub_category": 1, "name": "برگر لند", "rate": 5.0, "descriptions": "توضیحات را ویرایش کنید", "slug": "برگر-لند"}}, {"model": "restaurant.element", "pk": 3, "fields": {"category": 2, "sub_category": 4, "name": "آبمیوه بستنی منگو", "rate": 5.0, "descriptions": "توضیحات را ویرایش کنید", "slug": "آبمیوه-بستنی-منگو-3"}}, {"model": "restaurant.element", "pk": 4, "fields": {"category": 1, "sub_category": null, "name": "کافه دژاوو", "rate": 5.0, "descriptions": "قهوه، کیک، صبحانه", "slug": "کافه-دژاوو-4"}}, {"model": "restaurant.elementaddress", "pk": 5, "fields": {"element": 1, "address_txt": "tehran"}}, {"model": "restaurant.elementaddress", "pk": 6, "fields": {"element": 2, "address_txt": "tehran"}}, {"model": "restaurant.elementaddress", "pk": 7, "fields": {"element": 3, "address_txt": "معالی آباد، نرسیده به خیابان دوستان، نبش پاساژ الوند، آبمیوه بستنی منگو"}}, {"model": "restaurant.elementaddress", "pk": 8, "fields": {"element": 3, "address_txt": "آزادی جنب دانشگاه شریف"}}, {"model": "restaurant.elementaddress", "pk": 9, "fields": {"element": 4, "address_txt": "خیابان مشیر فاطمی، کوچه ۳، زندیه شیراز"}}, {"model": "restaurant.elementaddress", "pk": 10, "fields": {"element": 3, "address_txt": "تهران اکباتان بلوک 8 قاز 2"}}, {"model": "restaurant.menucat", "pk": 1, "fields": {"name": "غذای ایرانی", "element": 1}}, {"model": "restaurant.menucat", "pk": 2, "fields": {"name": "غذای ایرانی", "element": 2}}, {"model": "restaurant.menucat", "pk": 3, "fields": {"name": "ایتالیایی", "element": 3}}, {"model": "restaurant.food", "pk": 2, "fields": {"name": "چلو خورشت قیمه سیب زمینی", "description": "220 گرم خورشت، 100 گرم گوشت گوسفندی، سیب زمینی، 300 گرم برنج ایرانی", "price": 59000, "status": true, "rate": 5.0, "poster": "باروژ/l4.jpg", "cat_manu": 1}}, {"model": "restaurant.food", "pk": 3, "fields": {"name": "جوجه کباب", "description": "120 گرم مرغ، زعفران، نمک، ادویه، پیاز", "price": 20000, "status": true, "rate": 5.0, "poster": "باروژ/d1.jpg", "cat_manu": 1}}, {"model": "restaurant.food", "pk": 4, "fields": {"name": "سزار", "description": "100 گرم کاهو", "price": 200000, "status": true, "rate": 5.0, "poster": "", "cat_manu": 3}}, {"model": "restaurant.account", "pk": 1, "fields": {"name": "عادل"}}, {"model": "restaurant.account", "pk": 2, "fields": {"name": "صدیقه"}}, {"model": "restaurant.account", "pk": 3, "fields": {"name": "زهره"}}, {"model": "restaurant.supplier", "pk": 1, "fields": {"account": 1}}, {"model": "restaurant.supplier", "pk": 2, "fields": {"account": 2}}, {"model": "restaurant.supplier", "pk": 3, "fields": {"account": 3}}, {"model": "restaurant.product", "pk": 1, "fields": {"name": "lebas shui", "supplier": [1, 2]}}, {"model": "restaurant.product", "pk": 2, "fields": {"name": "ekhgkeh", "supplier": [1]}}]
+[{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2020-11-06T12:28:18.475Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "2",
+        "object_repr": "khalil",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2020-11-06T12:28:49.705Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "2",
+        "object_repr": "khalil",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\", \"Email address\", \"Staff status\"]}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2020-11-06T12:29:31.001Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "khalil",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2020-11-06T12:30:44.096Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "1",
+        "object_repr": "Address object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2020-11-06T12:40:45.746Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "2",
+        "object_repr": "khalil - priority: 2",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2020-11-06T12:56:57.793Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "2",
+        "object_repr": "admin",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2020-11-06T12:57:39.464Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "3",
+        "object_repr": "admin - priority: 1",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2020-11-06T13:31:37.127Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "5",
+        "object_repr": "1234569865",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Staff status\"]}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2020-11-06T15:10:02.709Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "caffeshop",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2020-11-06T15:10:16.925Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "2",
+        "object_repr": "kataring",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2020-11-06T15:10:33.023Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "3",
+        "object_repr": "ghaza",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2020-11-06T15:13:19.320Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "2",
+        "object_repr": "2 in خلیل کبابی",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2020-11-12T12:53:33.545Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "کبابی",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2020-11-12T12:53:38.633Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "1",
+        "object_repr": "1- خلیل",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2020-11-12T12:53:41.419Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "1",
+        "object_repr": "1- خلیل",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2020-11-12T12:54:26.267Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "2",
+        "object_repr": "2- خلیل",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2020-11-12T12:54:49.527Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "1",
+        "object_repr": "1- خلیل",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2020-11-12T12:55:10.186Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "3",
+        "object_repr": "3- خلیل",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2020-11-12T12:56:01.333Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "2",
+        "object_repr": "2- ش",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2020-11-12T12:56:35.183Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "4",
+        "object_repr": "4- ش",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+        "action_time": "2020-11-12T14:02:36.832Z",
+        "user": 1,
+        "content_type": 15,
+        "object_id": "1",
+        "object_repr": "Author object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+        "action_time": "2020-11-12T14:02:46.353Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "1",
+        "object_repr": "Article object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+        "action_time": "2020-11-12T14:04:10.532Z",
+        "user": 1,
+        "content_type": 15,
+        "object_id": "2",
+        "object_repr": "ملا اکبر",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+        "action_time": "2020-11-12T14:04:29.445Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "2",
+        "object_repr": "باورهای عجیب غریب",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+        "action_time": "2020-11-13T13:44:35.945Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "2",
+        "object_repr": "رستوران",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+        "action_time": "2020-11-13T13:44:46.060Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "3",
+        "object_repr": "کافی شاپ",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+        "action_time": "2020-11-13T13:46:24.920Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "کبابی",
+        "action_flag": 3,
+        "change_message": ""
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+        "action_time": "2020-11-13T13:55:17.479Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "4",
+        "object_repr": "شیرینی",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+        "action_time": "2020-11-13T13:55:49.477Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "5",
+        "object_repr": "سوپرمارکت",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+        "action_time": "2020-11-13T13:56:06.145Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "6",
+        "object_repr": "فود کورت",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+        "action_time": "2020-11-13T13:56:44.954Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "1",
+        "object_repr": "کبابی",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+        "action_time": "2020-11-13T13:56:56.109Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "2",
+        "object_repr": "فست فود",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+        "action_time": "2020-11-13T14:20:46.093Z",
+        "user": 1,
+        "content_type": 18,
+        "object_id": "1",
+        "object_repr": "رستو",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+        "action_time": "2020-11-13T14:20:53.755Z",
+        "user": 1,
+        "content_type": 18,
+        "object_id": "1",
+        "object_repr": "رستوران",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Title\"]}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+        "action_time": "2020-11-13T14:21:06.825Z",
+        "user": 1,
+        "content_type": 18,
+        "object_id": "2",
+        "object_repr": "کافی شاپ",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+        "action_time": "2020-11-13T14:21:09.857Z",
+        "user": 1,
+        "content_type": 18,
+        "object_id": "2",
+        "object_repr": "کافی شاپ",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+        "action_time": "2020-11-13T14:21:18.934Z",
+        "user": 1,
+        "content_type": 18,
+        "object_id": "3",
+        "object_repr": "سوپرمارکت",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+        "action_time": "2020-11-13T14:21:25.176Z",
+        "user": 1,
+        "content_type": 18,
+        "object_id": "4",
+        "object_repr": "شیرینی",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 39,
+    "fields": {
+        "action_time": "2020-11-13T14:21:44.434Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "1",
+        "object_repr": "فست فود",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 40,
+    "fields": {
+        "action_time": "2020-11-13T14:21:50.856Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "2",
+        "object_repr": "کبابی",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 41,
+    "fields": {
+        "action_time": "2020-11-13T14:22:00.781Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "3",
+        "object_repr": "غذای ایرانی",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 42,
+    "fields": {
+        "action_time": "2020-11-13T14:25:39.135Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "1",
+        "object_repr": "1- باروژ (سردار جنگل)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 43,
+    "fields": {
+        "action_time": "2020-11-13T14:27:15.011Z",
+        "user": 1,
+        "content_type": 19,
+        "object_id": "5",
+        "object_repr": "5- باروژ (سردار جنگل)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 44,
+    "fields": {
+        "action_time": "2020-11-13T14:28:07.156Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "2",
+        "object_repr": "2- برگر لند (سعادت آباد)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 45,
+    "fields": {
+        "action_time": "2020-11-13T14:30:05.262Z",
+        "user": 1,
+        "content_type": 19,
+        "object_id": "6",
+        "object_repr": "6- برگر لند (سعادت آباد)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 46,
+    "fields": {
+        "action_time": "2020-11-14T18:01:06.236Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "2",
+        "object_repr": "2- برگر لند",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 47,
+    "fields": {
+        "action_time": "2020-11-14T18:01:15.338Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "1",
+        "object_repr": "1- باروژ",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 48,
+    "fields": {
+        "action_time": "2020-11-14T19:37:12.601Z",
+        "user": 1,
+        "content_type": 18,
+        "object_id": "2",
+        "object_repr": "کافی شاپ",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 49,
+    "fields": {
+        "action_time": "2020-11-14T19:39:53.729Z",
+        "user": 1,
+        "content_type": 18,
+        "object_id": "2",
+        "object_repr": "کافی شاپ",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 50,
+    "fields": {
+        "action_time": "2020-11-14T20:06:33.457Z",
+        "user": 1,
+        "content_type": 18,
+        "object_id": "2",
+        "object_repr": "کافی شاپ",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 51,
+    "fields": {
+        "action_time": "2020-11-14T20:18:54.937Z",
+        "user": 1,
+        "content_type": 18,
+        "object_id": "2",
+        "object_repr": "کافی شاپ",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Poster\"]}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 52,
+    "fields": {
+        "action_time": "2020-11-17T10:21:19.360Z",
+        "user": 1,
+        "content_type": 18,
+        "object_id": "4",
+        "object_repr": "شیرینی",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Poster\"]}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 53,
+    "fields": {
+        "action_time": "2020-11-17T10:21:28.763Z",
+        "user": 1,
+        "content_type": 18,
+        "object_id": "3",
+        "object_repr": "سوپرمارکت",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Poster\"]}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 54,
+    "fields": {
+        "action_time": "2020-11-17T10:21:37.943Z",
+        "user": 1,
+        "content_type": 18,
+        "object_id": "1",
+        "object_repr": "رستوران",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Poster\"]}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 55,
+    "fields": {
+        "action_time": "2020-11-17T11:17:36.457Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "4",
+        "object_repr": "آبمیوه",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 56,
+    "fields": {
+        "action_time": "2020-11-17T11:17:47.433Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "3",
+        "object_repr": "3- آبمیوه بستنی منگو",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 57,
+    "fields": {
+        "action_time": "2020-11-17T11:18:55.556Z",
+        "user": 1,
+        "content_type": 19,
+        "object_id": "7",
+        "object_repr": "7- آبمیوه بستنی منگو",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 58,
+    "fields": {
+        "action_time": "2020-11-17T11:20:47.546Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "4",
+        "object_repr": "4- کافه دژاوو",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 59,
+    "fields": {
+        "action_time": "2020-11-17T11:54:38.902Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "4",
+        "object_repr": "4- کافه دژاوو",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Descriptions\"]}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 60,
+    "fields": {
+        "action_time": "2020-11-17T12:10:43.405Z",
+        "user": 1,
+        "content_type": 19,
+        "object_id": "8",
+        "object_repr": "8- آبمیوه بستنی منگو",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 61,
+    "fields": {
+        "action_time": "2020-11-19T11:34:37.283Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "4",
+        "object_repr": "4- کافه دژاوو",
+        "action_flag": 2,
+        "change_message": "[{\"added\": {\"name\": \"element address\", \"object\": \"9- \\u06a9\\u0627\\u0641\\u0647 \\u062f\\u0698\\u0627\\u0648\\u0648\"}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 62,
+    "fields": {
+        "action_time": "2020-11-19T14:31:00.527Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "5",
+        "object_repr": "5- شکلات شکووین",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 63,
+    "fields": {
+        "action_time": "2020-11-19T15:01:21.256Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "6",
+        "object_repr": "6- شکلات شکووین",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 64,
+    "fields": {
+        "action_time": "2020-11-19T15:05:21Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "6",
+        "object_repr": "6- شکلات شکووین",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Slug\"]}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 65,
+    "fields": {
+        "action_time": "2020-11-20T12:15:34.281Z",
+        "user": 1,
+        "content_type": 20,
+        "object_id": "1",
+        "object_repr": "غذای ایرانی in باروژ",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 66,
+    "fields": {
+        "action_time": "2020-11-20T12:19:24.558Z",
+        "user": 1,
+        "content_type": 20,
+        "object_id": "None",
+        "object_repr": "غذای ایرانی in باروژ",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 67,
+    "fields": {
+        "action_time": "2020-11-20T12:45:40.326Z",
+        "user": 1,
+        "content_type": 21,
+        "object_id": "2",
+        "object_repr": "چلو خورشت قیمه سیب زمینی_غذای ایرانی",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 68,
+    "fields": {
+        "action_time": "2020-11-20T12:48:04.156Z",
+        "user": 1,
+        "content_type": 21,
+        "object_id": "2",
+        "object_repr": "چلو خورشت قیمه سیب زمینی_غذای ایرانی",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Poster\"]}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 69,
+    "fields": {
+        "action_time": "2020-11-20T12:48:54.512Z",
+        "user": 1,
+        "content_type": 21,
+        "object_id": "2",
+        "object_repr": "چلو خورشت قیمه سیب زمینی_غذای ایرانی",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Poster\"]}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 70,
+    "fields": {
+        "action_time": "2020-11-20T13:28:07.432Z",
+        "user": 1,
+        "content_type": 22,
+        "object_id": "1",
+        "object_repr": "Account object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 71,
+    "fields": {
+        "action_time": "2020-11-20T13:28:15.770Z",
+        "user": 1,
+        "content_type": 22,
+        "object_id": "1",
+        "object_repr": "Account object (1)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 72,
+    "fields": {
+        "action_time": "2020-11-20T13:28:29.779Z",
+        "user": 1,
+        "content_type": 22,
+        "object_id": "2",
+        "object_repr": "Account object (2)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 73,
+    "fields": {
+        "action_time": "2020-11-20T13:28:37.336Z",
+        "user": 1,
+        "content_type": 22,
+        "object_id": "3",
+        "object_repr": "Account object (3)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 74,
+    "fields": {
+        "action_time": "2020-11-20T13:28:49.084Z",
+        "user": 1,
+        "content_type": 24,
+        "object_id": "1",
+        "object_repr": "Supplier object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 75,
+    "fields": {
+        "action_time": "2020-11-20T13:28:52.368Z",
+        "user": 1,
+        "content_type": 24,
+        "object_id": "2",
+        "object_repr": "Supplier object (2)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 76,
+    "fields": {
+        "action_time": "2020-11-20T13:28:55.994Z",
+        "user": 1,
+        "content_type": 24,
+        "object_id": "3",
+        "object_repr": "Supplier object (3)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 77,
+    "fields": {
+        "action_time": "2020-11-20T13:42:41.635Z",
+        "user": 1,
+        "content_type": 23,
+        "object_id": "2",
+        "object_repr": "Product object (2)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Supplier\"]}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 78,
+    "fields": {
+        "action_time": "2020-11-20T13:49:13.906Z",
+        "user": 1,
+        "content_type": 22,
+        "object_id": "2",
+        "object_repr": "Account object (2)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 79,
+    "fields": {
+        "action_time": "2020-11-21T17:51:24.185Z",
+        "user": 1,
+        "content_type": 20,
+        "object_id": "1",
+        "object_repr": "غذای ایرانی in باروژ",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 80,
+    "fields": {
+        "action_time": "2020-11-21T17:51:38.796Z",
+        "user": 1,
+        "content_type": 20,
+        "object_id": "2",
+        "object_repr": "غذای ایرانی in برگر لند",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 81,
+    "fields": {
+        "action_time": "2020-11-21T18:11:24.682Z",
+        "user": 1,
+        "content_type": 20,
+        "object_id": "2",
+        "object_repr": "غذای ایرانی in برگر لند",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 82,
+    "fields": {
+        "action_time": "2020-12-08T11:52:44.952Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "4",
+        "object_repr": "4- کافه دژاوو",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Category\", \"Slug\"]}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 83,
+    "fields": {
+        "action_time": "2020-12-08T12:01:06.383Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "4",
+        "object_repr": "4- کافه دژاوو",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Slug\"]}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 84,
+    "fields": {
+        "action_time": "2020-12-08T19:26:54.242Z",
+        "user": 1,
+        "content_type": 21,
+        "object_id": "3",
+        "object_repr": "جوجه کباب_غذای ایرانی",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 85,
+    "fields": {
+        "action_time": "2020-12-08T20:35:09.474Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "1",
+        "object_repr": "1- باروژ",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Slug\"]}}, {\"changed\": {\"name\": \"element address\", \"object\": \"5- \\u0628\\u0627\\u0631\\u0648\\u0698\", \"fields\": [\"\\u062e\\u06cc\\u0627\\u0628\\u0627\\u0646\"]}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 86,
+    "fields": {
+        "action_time": "2020-12-10T11:17:19.637Z",
+        "user": 1,
+        "content_type": 20,
+        "object_id": "3",
+        "object_repr": "ایتالیایی in آبمیوه بستنی منگو",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 87,
+    "fields": {
+        "action_time": "2020-12-10T11:18:00.668Z",
+        "user": 1,
+        "content_type": 21,
+        "object_id": "4",
+        "object_repr": "سزار_ایتالیایی",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 88,
+    "fields": {
+        "action_time": "2020-12-10T11:20:48.584Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "3",
+        "object_repr": "3- آبمیوه بستنی منگو",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Slug\"]}}, {\"added\": {\"name\": \"element address\", \"object\": \"10- \\u0622\\u0628\\u0645\\u06cc\\u0648\\u0647 \\u0628\\u0633\\u062a\\u0646\\u06cc \\u0645\\u0646\\u06af\\u0648\"}}]"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": 1,
+        "codename": "add_logentry"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+        "name": "Can change log entry",
+        "content_type": 1,
+        "codename": "change_logentry"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+        "name": "Can delete log entry",
+        "content_type": 1,
+        "codename": "delete_logentry"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+        "name": "Can view log entry",
+        "content_type": 1,
+        "codename": "view_logentry"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+        "name": "Can add permission",
+        "content_type": 2,
+        "codename": "add_permission"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+        "name": "Can change permission",
+        "content_type": 2,
+        "codename": "change_permission"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": 2,
+        "codename": "delete_permission"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+        "name": "Can view permission",
+        "content_type": 2,
+        "codename": "view_permission"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+        "name": "Can add group",
+        "content_type": 3,
+        "codename": "add_group"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+        "name": "Can change group",
+        "content_type": 3,
+        "codename": "change_group"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+        "name": "Can delete group",
+        "content_type": 3,
+        "codename": "delete_group"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+        "name": "Can view group",
+        "content_type": 3,
+        "codename": "view_group"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+        "name": "Can add user",
+        "content_type": 4,
+        "codename": "add_user"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+        "name": "Can change user",
+        "content_type": 4,
+        "codename": "change_user"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+        "name": "Can delete user",
+        "content_type": 4,
+        "codename": "delete_user"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+        "name": "Can view user",
+        "content_type": 4,
+        "codename": "view_user"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+        "name": "Can add content type",
+        "content_type": 5,
+        "codename": "add_contenttype"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+        "name": "Can change content type",
+        "content_type": 5,
+        "codename": "change_contenttype"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+        "name": "Can delete content type",
+        "content_type": 5,
+        "codename": "delete_contenttype"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+        "name": "Can view content type",
+        "content_type": 5,
+        "codename": "view_contenttype"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+        "name": "Can add session",
+        "content_type": 6,
+        "codename": "add_session"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+        "name": "Can change session",
+        "content_type": 6,
+        "codename": "change_session"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+        "name": "Can delete session",
+        "content_type": 6,
+        "codename": "delete_session"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+        "name": "Can view session",
+        "content_type": 6,
+        "codename": "view_session"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+        "name": "Can add profile",
+        "content_type": 7,
+        "codename": "add_profile"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+        "name": "Can change profile",
+        "content_type": 7,
+        "codename": "change_profile"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+        "name": "Can delete profile",
+        "content_type": 7,
+        "codename": "delete_profile"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+        "name": "Can view profile",
+        "content_type": 7,
+        "codename": "view_profile"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+        "name": "Can add address",
+        "content_type": 8,
+        "codename": "add_address"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+        "name": "Can change address",
+        "content_type": 8,
+        "codename": "change_address"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+        "name": "Can delete address",
+        "content_type": 8,
+        "codename": "delete_address"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+        "name": "Can view address",
+        "content_type": 8,
+        "codename": "view_address"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+        "name": "Can add user address",
+        "content_type": 9,
+        "codename": "add_useraddress"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+        "name": "Can change user address",
+        "content_type": 9,
+        "codename": "change_useraddress"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+        "name": "Can delete user address",
+        "content_type": 9,
+        "codename": "delete_useraddress"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+        "name": "Can view user address",
+        "content_type": 9,
+        "codename": "view_useraddress"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+        "name": "Can add address",
+        "content_type": 10,
+        "codename": "add_address"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+        "name": "Can change address",
+        "content_type": 10,
+        "codename": "change_address"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+        "name": "Can delete address",
+        "content_type": 10,
+        "codename": "delete_address"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+        "name": "Can view address",
+        "content_type": 10,
+        "codename": "view_address"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+        "name": "Can add restaurant",
+        "content_type": 11,
+        "codename": "add_restaurant"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+        "name": "Can change restaurant",
+        "content_type": 11,
+        "codename": "change_restaurant"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+        "name": "Can delete restaurant",
+        "content_type": 11,
+        "codename": "delete_restaurant"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {
+        "name": "Can view restaurant",
+        "content_type": 11,
+        "codename": "view_restaurant"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 45,
+    "fields": {
+        "name": "Can add restaurant cat",
+        "content_type": 12,
+        "codename": "add_restaurantcat"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 46,
+    "fields": {
+        "name": "Can change restaurant cat",
+        "content_type": 12,
+        "codename": "change_restaurantcat"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 47,
+    "fields": {
+        "name": "Can delete restaurant cat",
+        "content_type": 12,
+        "codename": "delete_restaurantcat"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 48,
+    "fields": {
+        "name": "Can view restaurant cat",
+        "content_type": 12,
+        "codename": "view_restaurantcat"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 49,
+    "fields": {
+        "name": "Can add restaurant address",
+        "content_type": 13,
+        "codename": "add_restaurantaddress"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 50,
+    "fields": {
+        "name": "Can change restaurant address",
+        "content_type": 13,
+        "codename": "change_restaurantaddress"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 51,
+    "fields": {
+        "name": "Can delete restaurant address",
+        "content_type": 13,
+        "codename": "delete_restaurantaddress"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 52,
+    "fields": {
+        "name": "Can view restaurant address",
+        "content_type": 13,
+        "codename": "view_restaurantaddress"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 53,
+    "fields": {
+        "name": "Can add article",
+        "content_type": 14,
+        "codename": "add_article"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 54,
+    "fields": {
+        "name": "Can change article",
+        "content_type": 14,
+        "codename": "change_article"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 55,
+    "fields": {
+        "name": "Can delete article",
+        "content_type": 14,
+        "codename": "delete_article"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 56,
+    "fields": {
+        "name": "Can view article",
+        "content_type": 14,
+        "codename": "view_article"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 57,
+    "fields": {
+        "name": "Can add author",
+        "content_type": 15,
+        "codename": "add_author"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 58,
+    "fields": {
+        "name": "Can change author",
+        "content_type": 15,
+        "codename": "change_author"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 59,
+    "fields": {
+        "name": "Can delete author",
+        "content_type": 15,
+        "codename": "delete_author"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 60,
+    "fields": {
+        "name": "Can view author",
+        "content_type": 15,
+        "codename": "view_author"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 61,
+    "fields": {
+        "name": "Can add category",
+        "content_type": 12,
+        "codename": "add_category"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 62,
+    "fields": {
+        "name": "Can change category",
+        "content_type": 12,
+        "codename": "change_category"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 63,
+    "fields": {
+        "name": "Can delete category",
+        "content_type": 12,
+        "codename": "delete_category"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 64,
+    "fields": {
+        "name": "Can view category",
+        "content_type": 12,
+        "codename": "view_category"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 65,
+    "fields": {
+        "name": "Can add sub category",
+        "content_type": 16,
+        "codename": "add_subcategory"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 66,
+    "fields": {
+        "name": "Can change sub category",
+        "content_type": 16,
+        "codename": "change_subcategory"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 67,
+    "fields": {
+        "name": "Can delete sub category",
+        "content_type": 16,
+        "codename": "delete_subcategory"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 68,
+    "fields": {
+        "name": "Can view sub category",
+        "content_type": 16,
+        "codename": "view_subcategory"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 69,
+    "fields": {
+        "name": "Can add element",
+        "content_type": 17,
+        "codename": "add_element"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 70,
+    "fields": {
+        "name": "Can change element",
+        "content_type": 17,
+        "codename": "change_element"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 71,
+    "fields": {
+        "name": "Can delete element",
+        "content_type": 17,
+        "codename": "delete_element"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 72,
+    "fields": {
+        "name": "Can view element",
+        "content_type": 17,
+        "codename": "view_element"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 73,
+    "fields": {
+        "name": "Can add category",
+        "content_type": 18,
+        "codename": "add_category"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 74,
+    "fields": {
+        "name": "Can change category",
+        "content_type": 18,
+        "codename": "change_category"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 75,
+    "fields": {
+        "name": "Can delete category",
+        "content_type": 18,
+        "codename": "delete_category"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 76,
+    "fields": {
+        "name": "Can view category",
+        "content_type": 18,
+        "codename": "view_category"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 77,
+    "fields": {
+        "name": "Can add element address",
+        "content_type": 19,
+        "codename": "add_elementaddress"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 78,
+    "fields": {
+        "name": "Can change element address",
+        "content_type": 19,
+        "codename": "change_elementaddress"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 79,
+    "fields": {
+        "name": "Can delete element address",
+        "content_type": 19,
+        "codename": "delete_elementaddress"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 80,
+    "fields": {
+        "name": "Can view element address",
+        "content_type": 19,
+        "codename": "view_elementaddress"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 81,
+    "fields": {
+        "name": "Can add menu cat",
+        "content_type": 20,
+        "codename": "add_menucat"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 82,
+    "fields": {
+        "name": "Can change menu cat",
+        "content_type": 20,
+        "codename": "change_menucat"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 83,
+    "fields": {
+        "name": "Can delete menu cat",
+        "content_type": 20,
+        "codename": "delete_menucat"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 84,
+    "fields": {
+        "name": "Can view menu cat",
+        "content_type": 20,
+        "codename": "view_menucat"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 85,
+    "fields": {
+        "name": "Can add food",
+        "content_type": 21,
+        "codename": "add_food"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 86,
+    "fields": {
+        "name": "Can change food",
+        "content_type": 21,
+        "codename": "change_food"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 87,
+    "fields": {
+        "name": "Can delete food",
+        "content_type": 21,
+        "codename": "delete_food"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 88,
+    "fields": {
+        "name": "Can view food",
+        "content_type": 21,
+        "codename": "view_food"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 89,
+    "fields": {
+        "name": "Can add account",
+        "content_type": 22,
+        "codename": "add_account"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 90,
+    "fields": {
+        "name": "Can change account",
+        "content_type": 22,
+        "codename": "change_account"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 91,
+    "fields": {
+        "name": "Can delete account",
+        "content_type": 22,
+        "codename": "delete_account"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 92,
+    "fields": {
+        "name": "Can view account",
+        "content_type": 22,
+        "codename": "view_account"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 93,
+    "fields": {
+        "name": "Can add product",
+        "content_type": 23,
+        "codename": "add_product"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 94,
+    "fields": {
+        "name": "Can change product",
+        "content_type": 23,
+        "codename": "change_product"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 95,
+    "fields": {
+        "name": "Can delete product",
+        "content_type": 23,
+        "codename": "delete_product"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 96,
+    "fields": {
+        "name": "Can view product",
+        "content_type": 23,
+        "codename": "view_product"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 97,
+    "fields": {
+        "name": "Can add supplier",
+        "content_type": 24,
+        "codename": "add_supplier"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 98,
+    "fields": {
+        "name": "Can change supplier",
+        "content_type": 24,
+        "codename": "change_supplier"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 99,
+    "fields": {
+        "name": "Can delete supplier",
+        "content_type": 24,
+        "codename": "delete_supplier"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 100,
+    "fields": {
+        "name": "Can view supplier",
+        "content_type": 24,
+        "codename": "view_supplier"
+    }
+}, {
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+        "app_label": "admin",
+        "model": "logentry"
+    }
+}, {
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+        "app_label": "auth",
+        "model": "permission"
+    }
+}, {
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+        "app_label": "auth",
+        "model": "group"
+    }
+}, {
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+        "app_label": "auth",
+        "model": "user"
+    }
+}, {
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+        "app_label": "contenttypes",
+        "model": "contenttype"
+    }
+}, {
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+        "app_label": "sessions",
+        "model": "session"
+    }
+}, {
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+        "app_label": "user_profile",
+        "model": "profile"
+    }
+}, {
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+        "app_label": "user_profile",
+        "model": "address"
+    }
+}, {
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+        "app_label": "user_profile",
+        "model": "useraddress"
+    }
+}, {
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+        "app_label": "geolocation",
+        "model": "address"
+    }
+}, {
+    "model": "contenttypes.contenttype",
+    "pk": 11,
+    "fields": {
+        "app_label": "restaurant",
+        "model": "restaurant"
+    }
+}, {
+    "model": "contenttypes.contenttype",
+    "pk": 12,
+    "fields": {
+        "app_label": "restaurant",
+        "model": "restaurantcat"
+    }
+}, {
+    "model": "contenttypes.contenttype",
+    "pk": 13,
+    "fields": {
+        "app_label": "restaurant",
+        "model": "restaurantaddress"
+    }
+}, {
+    "model": "contenttypes.contenttype",
+    "pk": 14,
+    "fields": {
+        "app_label": "restaurant",
+        "model": "article"
+    }
+}, {
+    "model": "contenttypes.contenttype",
+    "pk": 15,
+    "fields": {
+        "app_label": "restaurant",
+        "model": "author"
+    }
+}, {
+    "model": "contenttypes.contenttype",
+    "pk": 16,
+    "fields": {
+        "app_label": "restaurant",
+        "model": "subcategory"
+    }
+}, {
+    "model": "contenttypes.contenttype",
+    "pk": 17,
+    "fields": {
+        "app_label": "restaurant",
+        "model": "element"
+    }
+}, {
+    "model": "contenttypes.contenttype",
+    "pk": 18,
+    "fields": {
+        "app_label": "restaurant",
+        "model": "category"
+    }
+}, {
+    "model": "contenttypes.contenttype",
+    "pk": 19,
+    "fields": {
+        "app_label": "restaurant",
+        "model": "elementaddress"
+    }
+}, {
+    "model": "contenttypes.contenttype",
+    "pk": 20,
+    "fields": {
+        "app_label": "restaurant",
+        "model": "menucat"
+    }
+}, {
+    "model": "contenttypes.contenttype",
+    "pk": 21,
+    "fields": {
+        "app_label": "restaurant",
+        "model": "food"
+    }
+}, {
+    "model": "contenttypes.contenttype",
+    "pk": 22,
+    "fields": {
+        "app_label": "restaurant",
+        "model": "account"
+    }
+}, {
+    "model": "contenttypes.contenttype",
+    "pk": 23,
+    "fields": {
+        "app_label": "restaurant",
+        "model": "product"
+    }
+}, {
+    "model": "contenttypes.contenttype",
+    "pk": 24,
+    "fields": {
+        "app_label": "restaurant",
+        "model": "supplier"
+    }
+}, {
+    "model": "sessions.session",
+    "pk": "51gv24rfxsgurhlg98a4ltfl77rltnwb",
+    "fields": {
+        "session_data": ".eJxVjMsOwiAQRf-FtSEDw0Ncuu83EGBAqgaS0q6M_65NutDtPefcF_NhW6vfRl78TOzCBDv9bjGkR247oHtot85Tb-syR74r_KCDT53y83q4fwc1jPqtnVCKYrTl7LIsRTlBEkQwBWQOmshq1No4oGRsQsJijJAJAQAzCYvs_QHhADdq:1kb1vS:FQYR-4XQ6nyPyLmu47VyEb1DhxsjI4ivI_BvXrtIzdU",
+        "expire_date": "2020-11-20T13:37:10.980Z"
+    }
+}, {
+    "model": "sessions.session",
+    "pk": "hvfcldla0fkjunmpmucrof8r3mb4vbos",
+    "fields": {
+        "session_data": ".eJxVjMsOwiAQRf-FtSEDw0Ncuu83EGBAqgaS0q6M_65NutDtPefcF_NhW6vfRl78TOzCBDv9bjGkR247oHtot85Tb-syR74r_KCDT53y83q4fwc1jPqtnVCKYrTl7LIsRTlBEkQwBWQOmshq1No4oGRsQsJijJAJAQAzCYvs_QHhADdq:1kmbTo:uwzLsTfcB0sLIgwKpgfaD6XKktAZ7k1rpI7pANYwgbs",
+        "expire_date": "2020-12-22T11:48:28.392Z"
+    }
+}, {
+    "model": "sessions.session",
+    "pk": "ig3e7qblg7d8mbk1y9gylsywo0bpvq6s",
+    "fields": {
+        "session_data": ".eJxVjMsOwiAQRf-FtSEDw0Ncuu83EGBAqgaS0q6M_65NutDtPefcF_NhW6vfRl78TOzCBDv9bjGkR247oHtot85Tb-syR74r_KCDT53y83q4fwc1jPqtnVCKYrTl7LIsRTlBEkQwBWQOmshq1No4oGRsQsJijJAJAQAzCYvs_QHhADdq:1kdC5P:TawDrcfI4KvYZH2cDfUW1npkSzaCfEry7odSZ_jQ8lc",
+        "expire_date": "2020-11-26T12:52:23.996Z"
+    }
+}, {
+    "model": "sessions.session",
+    "pk": "z5gyuxtz81i571mt2zj94idr1xorxl5g",
+    "fields": {
+        "session_data": ".eJxVjMsOwiAQRf-FtSEDw0Ncuu83EGBAqgaS0q6M_65NutDtPefcF_NhW6vfRl78TOzCBDv9bjGkR247oHtot85Tb-syR74r_KCDT53y83q4fwc1jPqtnVCKYrTl7LIsRTlBEkQwBWQOmshq1No4oGRsQsJijJAJAQAzCYvs_QHhADdq:1kg6S9:nyITavkEKDmOg4w8LNb-YsZFfve0xEB4N5vpI8-Dx_A",
+        "expire_date": "2020-12-04T13:27:53.668Z"
+    }
+}, {
+    "model": "geolocation.address",
+    "pk": 5,
+    "fields": {
+        "state": "tehran",
+        "city": "تهران",
+        "street": "شهران",
+        "alley": "جنگل",
+        "number": "2",
+        "poste_code": "2",
+        "priority_address": 1,
+        "location": "نهران"
+    }
+}, {
+    "model": "geolocation.address",
+    "pk": 6,
+    "fields": {
+        "state": "tehran",
+        "city": "تهران",
+        "street": "سعادت آباد",
+        "alley": "سعادت آباد",
+        "number": "2",
+        "poste_code": "1",
+        "priority_address": 1,
+        "location": "تهران"
+    }
+}, {
+    "model": "geolocation.address",
+    "pk": 7,
+    "fields": {
+        "state": "alborz",
+        "city": "کرج",
+        "street": "الیوت",
+        "alley": "الیوت",
+        "number": "2",
+        "poste_code": "2",
+        "priority_address": 1,
+        "location": "1"
+    }
+}, {
+    "model": "geolocation.address",
+    "pk": 8,
+    "fields": {
+        "state": "tehran",
+        "city": "تهران",
+        "street": "آزادی",
+        "alley": "شریف",
+        "number": "2",
+        "poste_code": "2",
+        "priority_address": 2,
+        "location": "2"
+    }
+}, {
+    "model": "geolocation.address",
+    "pk": 9,
+    "fields": {
+        "state": "tehran",
+        "city": "تهران",
+        "street": "شیخ بهایی",
+        "alley": "امداد غربی",
+        "number": "2",
+        "poste_code": "2",
+        "priority_address": 1,
+        "location": "25"
+    }
+}, {
+    "model": "geolocation.address",
+    "pk": 10,
+    "fields": {
+        "state": "tehran",
+        "city": "تهران",
+        "street": "اکباتان",
+        "alley": "اکباتان",
+        "number": "12",
+        "poste_code": "5",
+        "priority_address": 3,
+        "location": "3"
+    }
+}, {
+    "model": "restaurant.category",
+    "pk": 1,
+    "fields": {
+        "title": "رستوران",
+        "poster": "category/restaurant.png"
+    }
+}, {
+    "model": "restaurant.category",
+    "pk": 2,
+    "fields": {
+        "title": "کافی شاپ",
+        "poster": "category/caffe_oj0ocjR.png"
+    }
+}, {
+    "model": "restaurant.category",
+    "pk": 3,
+    "fields": {
+        "title": "سوپرمارکت",
+        "poster": "category/market.png"
+    }
+}, {
+    "model": "restaurant.category",
+    "pk": 4,
+    "fields": {
+        "title": "شیرینی",
+        "poster": "category/candy.png"
+    }
+}, {
+    "model": "restaurant.subcategory",
+    "pk": 1,
+    "fields": {
+        "sub_name": "فست فود",
+        "category": 1
+    }
+}, {
+    "model": "restaurant.subcategory",
+    "pk": 2,
+    "fields": {
+        "sub_name": "کبابی",
+        "category": 1
+    }
+}, {
+    "model": "restaurant.subcategory",
+    "pk": 3,
+    "fields": {
+        "sub_name": "غذای ایرانی",
+        "category": 1
+    }
+}, {
+    "model": "restaurant.subcategory",
+    "pk": 4,
+    "fields": {
+        "sub_name": "آبمیوه",
+        "category": 2
+    }
+}, {
+    "model": "restaurant.element",
+    "pk": 1,
+    "fields": {
+        "category": 1,
+        "sub_category": 3,
+        "name": "باروژ",
+        "rate": 5.0,
+        "descriptions": "توضیحات را ویرایش کنید",
+        "slug": "باروژ-1"
+    }
+}, {
+    "model": "restaurant.element",
+    "pk": 2,
+    "fields": {
+        "category": 1,
+        "sub_category": 1,
+        "name": "برگر لند",
+        "rate": 5.0,
+        "descriptions": "توضیحات را ویرایش کنید",
+        "slug": "برگر-لند"
+    }
+}, {
+    "model": "restaurant.element",
+    "pk": 3,
+    "fields": {
+        "category": 2,
+        "sub_category": 4,
+        "name": "آبمیوه بستنی منگو",
+        "rate": 5.0,
+        "descriptions": "توضیحات را ویرایش کنید",
+        "slug": "آبمیوه-بستنی-منگو-3"
+    }
+}, {
+    "model": "restaurant.element",
+    "pk": 4,
+    "fields": {
+        "category": 1,
+        "sub_category": null,
+        "name": "کافه دژاوو",
+        "rate": 5.0,
+        "descriptions": "قهوه، کیک، صبحانه",
+        "slug": "کافه-دژاوو-4"
+    }
+}, {
+    "model": "restaurant.elementaddress",
+    "pk": 5,
+    "fields": {
+        "element": 1,
+        "address_txt": "tehran"
+    }
+}, {
+    "model": "restaurant.elementaddress",
+    "pk": 6,
+    "fields": {
+        "element": 2,
+        "address_txt": "tehran"
+    }
+}, {
+    "model": "restaurant.elementaddress",
+    "pk": 7,
+    "fields": {
+        "element": 3,
+        "address_txt": "معالی آباد، نرسیده به خیابان دوستان، نبش پاساژ الوند، آبمیوه بستنی منگو"
+    }
+}, {
+    "model": "restaurant.elementaddress",
+    "pk": 8,
+    "fields": {
+        "element": 3,
+        "address_txt": "آزادی جنب دانشگاه شریف"
+    }
+}, {
+    "model": "restaurant.elementaddress",
+    "pk": 9,
+    "fields": {
+        "element": 4,
+        "address_txt": "خیابان مشیر فاطمی، کوچه ۳، زندیه شیراز"
+    }
+}, {
+    "model": "restaurant.elementaddress",
+    "pk": 10,
+    "fields": {
+        "element": 3,
+        "address_txt": "تهران اکباتان بلوک 8 قاز 2"
+    }
+}, {
+    "model": "restaurant.menucat",
+    "pk": 1,
+    "fields": {
+        "name": "غذای ایرانی",
+        "element": 1
+    }
+}, {
+    "model": "restaurant.menucat",
+    "pk": 2,
+    "fields": {
+        "name": "غذای ایرانی",
+        "element": 2
+    }
+}, {
+    "model": "restaurant.menucat",
+    "pk": 3,
+    "fields": {
+        "name": "ایتالیایی",
+        "element": 3
+    }
+}, {
+    "model": "restaurant.food",
+    "pk": 2,
+    "fields": {
+        "name": "چلو خورشت قیمه سیب زمینی",
+        "description": "220 گرم خورشت، 100 گرم گوشت گوسفندی، سیب زمینی، 300 گرم برنج ایرانی",
+        "price": 59000,
+        "status": true,
+        "rate": 5.0,
+        "poster": "باروژ/l4.jpg",
+        "cat_manu": 1
+    }
+}, {
+    "model": "restaurant.food",
+    "pk": 3,
+    "fields": {
+        "name": "جوجه کباب",
+        "description": "120 گرم مرغ، زعفران، نمک، ادویه، پیاز",
+        "price": 20000,
+        "status": true,
+        "rate": 5.0,
+        "poster": "باروژ/d1.jpg",
+        "cat_manu": 1
+    }
+}, {
+    "model": "restaurant.food",
+    "pk": 4,
+    "fields": {
+        "name": "سزار",
+        "description": "100 گرم کاهو",
+        "price": 200000,
+        "status": true,
+        "rate": 5.0,
+        "poster": "",
+        "cat_manu": 3
+    }
+}, {
+    "model": "restaurant.account",
+    "pk": 1,
+    "fields": {
+        "name": "عادل"
+    }
+}, {
+    "model": "restaurant.account",
+    "pk": 2,
+    "fields": {
+        "name": "صدیقه"
+    }
+}, {
+    "model": "restaurant.account",
+    "pk": 3,
+    "fields": {
+        "name": "زهره"
+    }
+}, {
+    "model": "restaurant.supplier",
+    "pk": 1,
+    "fields": {
+        "account": 1
+    }
+}, {
+    "model": "restaurant.supplier",
+    "pk": 2,
+    "fields": {
+        "account": 2
+    }
+}, {
+    "model": "restaurant.supplier",
+    "pk": 3,
+    "fields": {
+        "account": 3
+    }
+}, {
+    "model": "restaurant.product",
+    "pk": 1,
+    "fields": {
+        "name": "lebas shui",
+        "supplier": [1, 2]
+    }
+}, {
+    "model": "restaurant.product",
+    "pk": 2,
+    "fields": {
+        "name": "ekhgkeh",
+        "supplier": [1]
+    }
+}]

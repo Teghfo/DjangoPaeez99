@@ -1,5 +1,5 @@
 from django.shortcuts import render, get_object_or_404
-from django.http import JsonResponse
+from django.http import JsonResponse, HttpResponse
 from django.views.generic.base import TemplateView, View
 from django.views.generic import ListView, DetailView
 
@@ -123,9 +123,26 @@ class ElementDetail(DetailView):
 
 
 # ToDo panjshanbe
-class SerchBox(View):
+class SearchBox(View):
     def get(self, request):
-        pass
+        query_set = Food.objects.all()
+        if request.GET.get('res_name'):
+            query_set = query_set.filter(
+                cat_manu__element__name__contains=request.GET.get('res_name'))
+        if request.GET.get('street_name'):
+            query_set = query_set.filter(
+                cat_manu__element__address__street__contains=request.GET.get('street_name'))
+        if request.GET.get('city_name'):
+            query_set = query_set.filter(
+                cat_manu__element__address__city=request.GET.get('city_name'))
+        if request.GET.get('food_name'):
+            query_set = query_set.filter(
+                name__contains=request.GET.get('food_name'))
+
+        print(query_set)
+        response = HttpResponse("ok shod")
+        response.set_cookie('name', 'ashkan', max_age=30)
+        return response
         # foods = Food.objects.filter(cat_manu__element__)
         # foods_address = ElementAddress.objects.select_related('element').filter(
         #     city=request.GET.get('city'), street=request.GET.get('street'))
