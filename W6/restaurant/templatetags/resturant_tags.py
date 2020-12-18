@@ -20,6 +20,12 @@ def comma_seperator(value, arg):
     return res
 
 
+@register.filter(is_safe=True)
+def select_user_from_email(value):
+    username = value.split('@')[0]
+    return username
+
+
 @register.simple_tag
 def get_object_by_name(data):
     product = Product.objects.get(name=data)

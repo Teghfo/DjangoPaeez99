@@ -1,9 +1,15 @@
-<div class="header">
+{% load resturant_tags %}
+
+
+<div id="header">
     <div>
-        <a href="{% url 'home' %}">مپصا فود</a>
+        <span><a href="{% url 'home' %}">مپصا فود</a></span>
+    </div>
+    <div style="font-size: 30px;">
         {% if request.user.is_authenticated %}
-        <span>hello {{user.email}}</span>
+        <span>کاربر: {{user.email|select_user_from_email}}</span>
         <a href="{% url 'logout' %}"><button class="btn btn-primary">خروج</button></a>
+        <a href="{% url 'show_cart' %}"><button class="btn btn-primary">سبد خرید</button></a>
         {% else %}
         <a href="{% url 'login' %}"><button class="btn btn-primary">ورود</button></a>
         {% endif %}

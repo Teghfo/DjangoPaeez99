@@ -14,8 +14,10 @@ class Login(View):
             # logout(request)
             return redirect('/')
         form = LoginForm()
+        next_url = request.GET.get('next', '')
         context = {
-            'form': form
+            'form': form,
+            'next_url': next_url
         }
         return render(request, 'login.html', context)
 
@@ -27,6 +29,9 @@ class Login(View):
             user = authenticate(request, email=username, password=password)
             if user:
                 login(request, user)
+                next_url = request.GET.get('next', None)
+                if next_url:
+                    return redirect(next_url)
                 return redirect('/')
             else:
                 return redirect('login')

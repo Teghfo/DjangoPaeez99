@@ -8,10 +8,11 @@
     </head>
 
     <body>
-        <form action="/profile/login/" , method="post">
+        <form action="/profile/login/?next={{next_url}}" , method="post">
             {% csrf_token %}
             {{form}}
             <input type="submit">
+            <input type="hidden" name="next" value="{{ next }}">
         </form>
     </body>
 

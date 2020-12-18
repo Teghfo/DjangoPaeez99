@@ -10,5 +10,4 @@ def index(request):
         'category': category,
         'name': 'ashkan'
     }
-    print(_('category'))
     return render(request, 'index.html', context)

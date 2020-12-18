@@ -3,7 +3,7 @@ from django.http import JsonResponse, HttpResponse
 from django.views.generic.base import TemplateView, View
 from django.views.generic import ListView, DetailView
 
-from .models import Category, Element, Food, ElementAddress
+from .models import Category, Element, Food, ElementAddress, Food
 
 
 # -------------------- Functional Base View
@@ -125,7 +125,7 @@ class ElementDetail(DetailView):
 # ToDo panjshanbe
 class SearchBox(View):
     def get(self, request):
-        query_set = Food.objects.all()
+        query_set = Food.objects.all().distinct()
         if request.GET.get('res_name'):
             query_set = query_set.filter(
                 cat_manu__element__name__contains=request.GET.get('res_name'))
@@ -138,9 +138,10 @@ class SearchBox(View):
         if request.GET.get('food_name'):
             query_set = query_set.filter(
                 name__contains=request.GET.get('food_name'))
-
-        print(query_set)
-        response = HttpResponse("ok shod")
+        context = {
+            'foods': query_set
+        }
+        response = render(request, "show_food.html", context)
         response.set_cookie('name', 'ashkan', max_age=30)
         return response
         # foods = Food.objects.filter(cat_manu__element__)
@@ -156,3 +157,9 @@ class SearchBox(View):
         #     for obj in elem:
         #         if request.GET.get('street') and obj.name=request.GET.get('street')
         #             if
+
+
+class ShowFood(ListView):
+    template_name = 'show_food.html'
+    model = Food
+    context_object_name = 'foods'
