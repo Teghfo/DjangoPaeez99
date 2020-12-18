@@ -1,0 +1,30 @@
+{% extends 'base-restaurant-app.html' %}
+{% load static %}
+
+
+{% block title %}
+لیست غذاها
+{% endblock title %}
+
+{% block content %}
+<h1>صفحه نمایش غذاها </h1>
+<div class="menu-list-container">
+
+    {% for food in foods %}
+    <div class="card bg-primary m-4" style="width: 15rem;">
+        <div class="card-body text-center">
+            <p class="card-text mt-5 small font-weight-light">نام غذا: {{food.name}}</p>
+            <p class="card-text mt-5 small font-weight-light">نام رستوران: {{food.cat_manu.element.name}}</p>
+
+            <form action="{% url 'add_cart' food_id=food.id %}?next={{request.path}}" , method='post'>
+                {% csrf_token %}
+                <input type="submit" class="btn btn-outline-dark" value="+">
+            </form>
+        </div>
+
+    </div>
+
+    {% endfor %}
+</div>
+
+{% endblock content %}

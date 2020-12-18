@@ -1,0 +1,48 @@
+{% extends 'base-restaurant-app.html' %}
+{% load resturant_tags %}
+{% load cache %}
+
+{% block content %}
+{% cache 500 showfood %}
+<h1>سبد خرید {{request.user.email|select_user_from_email}}</h1>
+<br>
+<br>
+<table id="cart_items">
+    <tr>
+        <th>نام کالا</th>
+        <th>نام رستوران</th>
+        <th>تعداد درخواستی</th>
+        <th>قیمت هر واحد</th>
+        <th>افزودن</th>
+    </tr>
+
+    {% for item in cart_item %}
+    <tr>
+        <td>{{item.food.name}}</td>
+        <td>{{item.food.cat_manu.element.name}}</td>
+        <td id='{{item.id}}'>{{item.qty}}</td>
+        <td>{{item.food.price}}</td>
+        <td>
+            {% comment %} <form action="{% url 'add_cart' food_id=item.food.id%}?next={{request.path}}" , method='post'>
+                {% endcomment %}
+
+                <form action="{% url 'add_cart' food_id=item.food.id%}?next={{request.path}}" id="increment_form">
+                    {% csrf_token %}
+                    <input type="hidden" class="inputid" value={{item.food.id}}>
+                    <input type="submit" class="submitbutton btn btn-outline-dark" value="+">
+                </form>
+                <form action="{% url 'decrement_cart' food_id=item.food.id%}?next={{request.path}}" , method='post'>
+                    {% csrf_token %}
+                    <input type="submit" class="btn btn-outline-dark" value="-">
+                </form>
+                <form action="{% url 'delete_from_cart' food_id=item.food.id%}?next={{request.path}}" , method='post'>
+                    {% csrf_token %}
+                    <input type="submit" class="btn btn-outline-dark" value="حذف">
+                </form>
+        </td>
+    </tr>
+    {% endfor %}
+
+</table>
+{% endcache %}
+{% endblock content %}
