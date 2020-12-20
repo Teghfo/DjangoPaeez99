@@ -8,6 +8,7 @@ class CartItemInline(admin.TabularInline):
 
 
 class CartAdmin(admin.ModelAdmin):
+    readonly_fields = ('sum_cart', 'cart_length')
     inlines = [
         CartItemInline,
     ]
