@@ -13,7 +13,7 @@ def show_cart(request):
     cart_item = CartItems.objects.filter(cart=cart)
 
     context = {
-        'cart_item': cart_item
+        'cart_item': cart_item,
     }
 
     return render(request, 'show_cart.html', context)
