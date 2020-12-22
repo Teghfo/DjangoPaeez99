@@ -15,6 +15,7 @@ Django==3.1.2
 django-debug-toolbar==3.1.1
 django-extensions==3.0.9
 django-redis==4.12.1
+djangorestframework==3.12.2
 entrypoints==0.3
 graphviz==0.14.2
 idna==2.10
@@ -58,6 +59,7 @@ pylint==2.6.0
 pyparsing==2.4.7
 pyrsistent==0.17.3
 python-dateutil==2.8.1
+python-dotenv==0.15.0
 pytz==2020.1
 pyzmq==19.0.2
 redis==3.5.3
