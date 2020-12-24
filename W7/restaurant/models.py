@@ -1,8 +1,12 @@
+from django.dispatch import receiver
+from django.db.models.signals import post_save
 import os
 from django.db import models
 from django.utils.translation import gettext as _
 from django.utils.text import slugify
 from geolocation.models import Address
+from django.core.cache.utils import make_template_fragment_key
+from django.core.cache import cache
 
 
 class Category(models.Model):
@@ -114,3 +118,12 @@ class Supplier(models.Model):
 class Product(models.Model):
     name = models.CharField(max_length=255)
     supplier = models.ManyToManyField(Supplier)
+
+
+@receiver(post_save, sender=Food)
+def clear_cache(sender, instance, **kwargs):
+    key = make_template_fragment_key('showFood')
+    try:
+        cache.delete(key)
+    except Exception as e:
+        raise ValueError(e)
