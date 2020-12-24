@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>vote</title>
+</head>
+<body>
+    <form method="post" dir="rtl">
+        {% csrf_token %}
+        <div dir="rtl">
+        {{ question.title }}
+        {% for choice in question.choices.all %}
+            <div dir="rtl">
+            {{ choice.choice_number }}
+            {{choice.text}}
+            </div>
+        {% endfor %}
+        </div>
+        {{ form.as_p }}
+        <input type="submit" value="رای بده">
+    </form>
+</body>
+</html>

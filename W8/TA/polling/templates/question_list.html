@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% for question in questions %}
+    <div dir="rtl">
+        <p>{{ question.title }}</p>
+    {% if question.picture %}
+        <img src="{{ question.picture.url }}" width="100" height="100">
+    {% endif %}
+    </div>
+    <div dir="rtl">
+    <a href ="{% url 'question-detail' question.id %}" >مشاهده ی سوال </a>
+    </div>
+    <div dir="rtl">
+    <a href ="{% url 'question-vote' question.id %}" >رای بده </a>
+    </div>
+    <div dir="rtl">
+    <a href ="{% url 'question-result' question.id %}" > دیدن نتایج </a>
+    </div>
+
+{% endfor %}
+
+</body>
+</html>
