@@ -23,7 +23,7 @@ class Pooldar(models.Model):
 class Publication(models.Model):
     name = models.CharField(max_length=50)
     owner = models.ForeignKey(
-        Pooldar, on_delete=models.CASCADE, null=True, blank=True)
+        Pooldar, on_delete=models.CASCADE)
 
     def __str__(self):
         return self.name

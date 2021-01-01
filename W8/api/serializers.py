@@ -55,7 +55,7 @@ class BookSerializer(serializers.Serializer):
     owner_publication = serializers.SerializerMethodField()
 
     def get_owner_publication(self, obj):
-        return 'ashkan'
+        return obj.publication.owner.aghazadeh
 
     def to_representation(self, obj):
         ret = super().to_representation(obj)
