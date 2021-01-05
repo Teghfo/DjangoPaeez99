@@ -1,0 +1,24 @@
+{% load resturant_tags %}
+
+
+<div id="header">
+    <div>
+        <span><a href="{% url 'home' %}">مپصا فود</a></span>
+    </div>
+    <div style="font-size: 30px;">
+        {% if request.user.is_authenticated %}
+        <span>کاربر: {{user.email|select_user_from_email}}</span>
+        <a href="{% url 'logout' %}"><button class="btn btn-primary">خروج</button></a>
+
+        <a href="{% url 'show_cart' %}"><button class="btn btn-primary">سبد خرید
+
+                {% if request.cart.cart_length %}{{request.cart.cart_length}}{% endif %}
+            </button></a>
+        {% else %}
+        <a href="{% url 'login' %}"><button class="btn btn-primary">ورود</button></a>
+        {% endif %}
+    </div>
+    {% comment %} <div>
+        <button class="btn bg-dark  ">عضویت</button>
+    </div> {% endcomment %}
+</div>

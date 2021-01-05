@@ -1,0 +1,58 @@
+{% extends 'base-restaurant-app.html' %}
+{% load resturant_tags %}
+
+{% block content %}
+<h1>سبد خرید {{request.user.email|select_user_from_email}}</h1>
+<br>
+<br>
+<table id="cart_items">
+    <tr>
+        <th>نام کالا</th>
+        <th>نام رستوران</th>
+        <th>تعداد درخواستی</th>
+        <th>قیمت هر واحد</th>
+        <th>جمع قیمتی</th>
+        <th>افزودن</th>
+    </tr>
+
+    {% for item in cart_item %}
+    <tr>
+        <td class="salam">{{item.food.name}}</td>
+        <td>{{item.food.cat_manu.element.name}}</td>
+        <td class="{{item.food.id}}">{{item.qty}}</td>
+        <td>{{item.food.price}}</td>
+        <td class="sum-price-{{item.food.id}}">{% multiply item.qty item.food.price %}</td>
+        <td>
+            {% comment %} <form action="{% url 'add_cart' food_id=item.food.id%}?next={{request.path}}" , method='post'>
+                {% endcomment %}
+
+                {% comment %} <form action="{% url 'add_cart' food_id=item.food.id%}?next={{request.path}}"
+                    id="increment_form">
+                    {% csrf_token %}
+                    <input type="hidden" class="inputid" value={{item.food.id}}>
+                    <input type="submit" class="submitbutton btn btn-outline-dark" value="+">
+                </form> {% endcomment %}
+                {% csrf_token %}
+                <button class="add-cart-product-btn" data="{{item.food.id}}"
+                    title="افزودن در سبد"><span>+</span></button>
+                <button class="dec-cart-product-btn" data="{{item.food.id}}"
+                    title="کم کردن از سبد"><span>-</span></button>
+                <button class="remove-cart-product-btn" data="{{item.food.id}}"
+                    title="حذف از سبد"><span>حذف</span></button>
+                {% comment %} <form action="{% url 'decrement_cart' food_id=item.food.id%}?next={{request.path}}" ,
+                    method='post'>
+                    {% csrf_token %}
+                    <input type="submit" class="btn btn-outline-dark" value="-">
+                </form>
+                <form action="{% url 'delete_from_cart' food_id=item.food.id%}?next={{request.path}}" , method='post'>
+                    {% csrf_token %}
+                    <input type="submit" class="btn btn-outline-dark" value="حذف">
+                </form> {% endcomment %}
+        </td>
+    </tr>
+    {% endfor %}
+
+</table>
+<br>
+<h3 id="sum-of-all-food">جمع کل سبد خرید: {{request.cart.sum_cart}}</h3>
+{% endblock content %}

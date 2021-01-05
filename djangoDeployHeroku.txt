@@ -1,0 +1,67 @@
+Deploy Django on Heroku
+Divband(Django Mentor)
+
+
+step 1:
+	-  activate virtualenv → virtualenv venv  , . venv/bin/activate
+	-  install django  →  pip install django
+	-  start project  → django-admin startproject your_project_name .
+	-  create app  → python manage.py startapp your_app_name
+	-  update setting installed_app
+
+
+
+step 2:
+	
+	- login yout terminal to heroku → heroku login (must have account on heroku! 	REGISTER)	
+	
+	- create Procfile → add this line to Procfile :
+			web: your_project_name.wsgi --log-file -
+	
+	-create runtime →  add this line to runtime 
+			python-3.7.9  (see supported python version by heroku)
+	
+	- install dependencies →
+	pip install gunicorn whitenoise dj-database-url 	psycopg2-binary
+	
+	- freeze requirements → pip freeze > requirements.txt
+
+step 3: 
+	update setting:
+		STATIC_ROOT = BASE_DIR / 'staticfiles'
+		STATIC_URL = '/static/'
+
+		# Extra lookup directories for collectstatic to find static files
+		STATICFILES_DIRS = (
+		    BASE_DIR / 'static',
+		)
+
+		#  Add configuration for static files storage using whitenoise
+		STATICFILES_STORAGE = 								          'whitenoise.django.GzipManifestStaticFilesStorage'
+	
+		import  dj_database_url
+		prod_db = dj_database_url.config(conn_max_age=500)
+		DATABASES['default'].update(prod_db)
+		
+		top of middlewares :     					    				'whitenoise.middleware.WhiteNoiseMiddleware'
+
+		ALLOWED_HOSTS = 				    			   			['your_heroku_domain_name.herokuapp.com']
+
+step 4: 
+	create app on heroku:
+		heroku create  your_heroku_domain_name
+
+
+step 5: 
+	git init and commit:
+		git init
+		heroku git:remote -a your_project_name
+		git add .
+		Git commit -am “your_commit”
+
+		heroku config:set DISABLE_COLLECTSTATIC=1
+
+		git push heroku master
+		
+		heroku run python manage.py migrate
+
