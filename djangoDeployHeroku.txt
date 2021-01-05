@@ -16,7 +16,7 @@ step 2:
 	- login yout terminal to heroku → heroku login (must have account on heroku! 	REGISTER)	
 	
 	- create Procfile → add this line to Procfile :
-			web: your_project_name.wsgi --log-file -
+			web: gunicorn your_project_name.wsgi --log-file -
 	
 	-create runtime →  add this line to runtime 
 			python-3.7.9  (see supported python version by heroku)
