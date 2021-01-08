@@ -6,6 +6,9 @@ from django.conf.urls.static import static
 from django.conf import settings
 from .views import index
 
+from user_profile import views
+
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('__debug__/', include(debug_toolbar.urls)),
@@ -14,6 +17,7 @@ urlpatterns = [
     path('profile/', include('user_profile.urls')),
     path('contact/', include('contact_admin.urls')),
     path('cart/', include('order.urls')),
+    path('send_mail/', views.send_user_email),
 ]
 
 

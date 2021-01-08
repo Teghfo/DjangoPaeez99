@@ -73,3 +73,13 @@ class UserAddress(Address):
 
     def __str__(self):
         return f"{self.user.user.username} - priority: {self.priority_address}"
+
+
+# class A(models.Model):
+#     name = models.CharField(max_length=255)
+
+#     def save(self, *args, **kwargs):
+#         obj = A.objects.get(name="eg3efg")
+#         obj.name = "123"
+#         obj.save()
+#         return super(A, self).save(*args, **kwargs)

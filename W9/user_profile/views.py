@@ -6,6 +6,7 @@ from django.contrib.auth.decorators import login_required, permission_required
 
 from .forms import LoginForm
 from .forms import CustomUserCreationForm
+from .tasks import send_email_task
 
 
 class Login(View):
@@ -61,6 +62,11 @@ class SignUp(View):
 def logout_view(request):
     logout(request)
     return redirect('home')
+
+
+def send_user_email(request):
+    result = send_email_task.delay("shalgham", "bade corona nakhordimet")
+    return HttpResponse("email zadam")
 
 
 @login_required(login_url='login')

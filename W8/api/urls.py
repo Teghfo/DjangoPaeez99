@@ -6,7 +6,7 @@ from .views import book_list, AuthorDetailView, AuthorListView, AuthorListGeneri
 from rest_framework.routers import DefaultRouter
 
 router = DefaultRouter()
-router.register('adel_danaey', AuthorViewSet, basename='author')
+router.register('authors_api', AuthorViewSet, basename='author')
 
 
 urlpatterns = [

@@ -191,3 +191,7 @@ STATICFILES_DIRS = [
 MEDIA_ROOT = BASE_DIR / 'media/'
 
 MEDIA_URL = '/media/'
+
+
+CELERY_BROKER_URL = "redis://localhost:6379"
+CELERY_TIMEZONE = "Asia/Tehran"

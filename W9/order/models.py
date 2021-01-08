@@ -26,6 +26,9 @@ class Cart(models.Model):
     def __str__(self):
         return f"{self.user.email}"
 
+    class Meta:
+        permissions = [('akbar_refighemuneh', 'Akbar Can Hame Kar')]
+
 
 class CartItems(models.Model):
     cart = models.ForeignKey(
