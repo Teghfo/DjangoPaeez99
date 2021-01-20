@@ -184,10 +184,12 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-STATICFILES_DIRS = [
-    BASE_DIR / "static",
+STATIC_ROOT = BASE_DIR / "static"
 
-]
+# STATICFILES_DIRS = [
+#     BASE_DIR / "static",
+
+# ]
 MEDIA_ROOT = BASE_DIR / 'media/'
 
 MEDIA_URL = '/media/'
@@ -195,3 +197,4 @@ MEDIA_URL = '/media/'
 
 CELERY_BROKER_URL = "redis://localhost:6379"
 CELERY_TIMEZONE = "Asia/Tehran"
+CELERY_RESULT_BACKEND = 'redis://localhost:6379/1'

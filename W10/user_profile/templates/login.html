@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>صفحه ورود</title>
+    </head>
+
+    <body>
+        <form action="/profile/login/?next={{next_url}}" , method="post">
+            {% csrf_token %}
+            {{form}}
+            <input type="submit">
+            <input type="hidden" name="next" value="{{ next }}">
+        </form>
+    </body>
+
+</html>
