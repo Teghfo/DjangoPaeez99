@@ -115,3 +115,5 @@ media/
 # !**/migrations
 # !**/migrations/__init__.py
 .idea
+
+.~lock.djangoDeployHeroku.odt#
